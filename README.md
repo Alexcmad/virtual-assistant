@@ -3,7 +3,7 @@ A virtual assistant powered by GPT-3 in python (eventually)
 
 
 # To-do List of Features:
-~~- Opening and closing applications.~~
+- Opening and closing applications.✅
 - Setting reminders
 - Fetching reminders
 - Sending emails
