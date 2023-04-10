@@ -36,7 +36,7 @@ def get_playlists_by_keyword(keyword):
     return results
 
 
-def play_playlist(keyword):
+def play(keyword):
     if not keyword:
         resume()
         return
@@ -47,7 +47,16 @@ def play_playlist(keyword):
         sp.start_playback(device_id=device.get('id'), context_uri=playlist_uri)
         print(f"Now Playing: {playlist_name}")
     except:
-        print(f"Playlist with keyword '{keyword}' not found in your library")
+        print(f"Playlist with keyword '{keyword}' not found in your library\nsearching Spotify for songs")
+        try:
+            song = search_song(keyword)
+            if not song:
+                raise Exception
+            else:
+                print(f"Now playing: {song['name']} - {song['artists'][0]['name']}")
+                sp.start_playback(device_id=device.get('id'),uris=[song['uri']])
+        except:
+            print(f"Could not find anything for {keyword}")
 
 
 def next_track():
@@ -123,8 +132,12 @@ def restart():
 
 def now_playing():
     try:
-        useful_info =["artists","name","duration_ms"]
+        useful_info =["artists","name"]
         track = sp.currently_playing().get('item')
         return {key: track[key] for key in useful_info}
     except AttributeError:
         return "No song currently playing"
+
+def search_song(keyword:str):
+    song = sp.search(q=keyword, limit=1)['tracks']['items'][0]
+    return song

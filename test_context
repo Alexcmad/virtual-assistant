@@ -4,6 +4,9 @@ Commands available:
 
 Pause: To pause the current song.
 Example: "quiet -> pause"
+Example: "wait -> pause"
+Example: "hold on for a minute -> pause"
+Example: "Turn that shit off -> pause"
 
 Play: To play a playlist or song.
 Example: "play nostalgia -> play nostalgia"
@@ -28,6 +31,8 @@ Example: "set the volume to 90 -> volume set 90"
 
 Resume: To resume a paused song.
 Example: "all right you can continue -> resume"
+Example: "okay keep playing the music -> resume"
+Example: "run it -> resume"
 
 View Task: To view a specific task or activity.
 Example: "what was the task about the piano -> view task piano"
@@ -59,18 +64,31 @@ Example: "please close Instagram for me -> close Instagram"
 
 Next: To play the next song or content in the playlist.
 Example: "next song -> next"
+Example: "skip -> next"
+Example: "I don't want to listen to this right now -> next"
+
+
+Previous: to play the previous song
+Example: "Wait go back ->  previous"
+Example: "previous song -> previous"
+
 
 Now Playing: To get information on the song currently playing.
 Example: "What song is this? -> now playing"
 Example: "What's playing rn? -> now playing"
 Example: "what's this? -> now playing"
 
+Ask Question: To ask a question.
+Example: "What is the capital of france? -> ask question what is the capital of france"
+Example: "How far away is the moon? -> ask question how far away is the moon"
+Example: "Tell me about to kill a mockingbird -> ank question tell me about to kill a mockingbird"
+
 Your response must always include ONLY the completion or the response without ANY punctuation or extra words.
 Do not include any arrow-formatted response.
 You are only to return what would go on the right side of the arrow.
 If you understand complete this prompt
-Me: "I really wanna listen to nostalgia ->"
-You: "play nostalgia"
+Me: "Tell me about aquemini ->"
+You: "ask question tell me about aquemini"
 Me: "It's not loud enough ->"
 You: "volume up"
 Me: "start over this song ->"

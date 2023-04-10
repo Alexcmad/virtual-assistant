@@ -7,8 +7,8 @@ def execute_command(command: str):
     command.removesuffix('.')
 
     if command.startswith('play'):
-        name = command.lstrip('play ')
-        spotifyControls.play_playlist(name)
+        name = command.split('play')[1].strip()
+        spotifyControls.play(name)
 
     elif command.startswith('open'):
         name = command.split('open')[1].strip()
@@ -108,8 +108,12 @@ def execute_command(command: str):
 
     elif command == 'now playing':
         song = spotifyControls.now_playing()
-        msg = {"role":"user", "content":f"{song} what song is this?"}
-        print(GPT_Engine.answer_question(msg))
+        ans = (GPT_Engine.answer_question(f"{song} what song is this?"))
+        print(ans)
+
+    elif command.startswith("ask question"):
+        question = command.split("ask question")[1].strip()
+        print(GPT_Engine.answer_question(question))
 
     else:
         return True

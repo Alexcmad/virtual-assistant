@@ -34,8 +34,9 @@ def interpret_command(command):
 
 
 def answer_question(question):
+    msg = {"role": "user", "content": f"{question} (50 words or less)"}
     completion = openai.ChatCompletion.create(model="gpt-3.5-turbo",
-                                       messages=[question],
+                                       messages=[msg],
                                               max_tokens=50)
     answer = completion['choices'][0]['message']['content']
     return answer
