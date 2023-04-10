@@ -1,5 +1,5 @@
 # Liz
-A virtual assistant powered by GPT-3 in python (eventually)
+A virtual assistant powered by GPT-3.5 in python (eventually)(It is now)
 
 
 # To-do List of Features:
@@ -10,7 +10,7 @@ A virtual assistant powered by GPT-3 in python (eventually)
 - Fetching Emails
 - Writing in txt files
 - General Searching
-- Voice controls✅
+- Voice controls✅🛑
 - Voice activation
 - Text to speech
 - Small talk
