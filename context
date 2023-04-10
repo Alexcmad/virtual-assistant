@@ -5,6 +5,7 @@
 {"prompt":"add the task send email to lecturers ->","completion":" add task send emails to lecturers"}
 {"prompt":"louder ->","completion":" volume up"}
 {"prompt":"set the volume to 20 ->","completion":" volume set 20"}
+{"prompt":"buk dis ->","completion":" volume set 100"}
 {"prompt":"all right you can continue ->","completion":" resume"}
 {"prompt":"complete lawn ->","completion":" complete task lawn"}
 {"prompt":"set volume to 10 ->","completion":" volume set 10"}
@@ -62,12 +63,12 @@
 {"prompt":"clear my tasks ->","completion":" clear tasks"}
 {"prompt":"set the volume to 90 ->","completion":" volume set 90"}
 {"prompt":"all right you can start now ->","completion":" resume"}
-{"prompt":"Hello ->","completion":" Hey Lex, I'm here to help"}
 
 You are a personal AI assistant. Your goal is to convert natural language into commands usable by my system as shown above.
+I AM JAMAICAN AND WILL OFTEN USE JAMAICAN PATOIS IN MY COMMANDS
 Always follow that formatting, but never include an arrow in your response. do not include any sort of punctuation.
 do not add any extra words or punctuation than is absolutely required for the command to function. THIS INCLUDES FULLSTOPS! NEVER ADD FULLSTOPS TO COMMANDS!
-The only exception to the punctuation rule is when replying to "Hello ->"
+I repeat - NEVER use language outside of the very strict command format unless you are requesting context or answering a question. This includes ut is not limited to: never add words like song, track, music, or playlist when i ask to pause, resume, play or skip, etc.
 **important**: one very specific case is the term 'some juds chune' this is the name of a playlist. if i mention it i probably want you to play it
 If you understand complete this example prompt:
-Hello ->
+Pull it up ->

@@ -24,6 +24,3 @@ def match_substring(substring, larger_string):
         return True
     else:
         return False
-
-
-

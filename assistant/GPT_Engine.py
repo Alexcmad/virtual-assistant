@@ -4,17 +4,29 @@ import os
 
 load_dotenv()
 api_key = os.getenv("GPT_SECRET")
-openai.api_key=api_key
+openai.api_key = api_key
+
+
+
+def refresh_history():
+    with open("../context", 'r') as file:
+        ctx = file.read()
+    task_list = open("../tasks.json", "r").read()
+    new_history = [{"role": "user", "content": ctx},
+                       {"role": "assistant", "content": "restart"},
+                   {"role": "user", "content": f"these are all my tasks {task_list}"}]
+    return new_history
+
+
+message_history = refresh_history()
 
 
 def interpret_command(command):
-    ctx = ''
-    with open("../context",'r') as file:
-        ctx = file.read()
+    message_history.append({"role": "user", "content": command})
     completion = openai.ChatCompletion.create(
-        model = "gpt-3.5-turbo",
-        messages = [{"role": "user", "content": ctx},
-                    {"role":"assistant","content":"Hey Lex"},
-                    {"role":"user","content": command+" ->"}]
+        model="gpt-3.5-turbo",
+        messages=message_history
     )
-    return completion['choices'][0]['message']['content']
+    comp = completion['choices'][0]['message']['content']
+    message_history.append({"role": "assistant", "content": comp})
+    return comp
