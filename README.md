@@ -1,5 +1,5 @@
 # Liz
-A virtual assistant powered by GPT-3 in python (eventually)
+A virtual assistant powered by GPT-3.5 in python (eventually)(It is now)
 
 
 # To-do List of Features:
