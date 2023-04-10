@@ -18,6 +18,17 @@ def add_task(task):
     db.insert(task_data)
 
 
+def view_tasks():
+    for item in db:
+        i = {"content": item['content'],
+             "completed":item['completed']}
+        pprint(i)
+
+
+def clear():
+    db.truncate()
+
+
 def get_tasks_by_keyword(keyword: str):
     task = db.search(Tasks.content.search(keyword, flags=re.IGNORECASE))
 
@@ -74,11 +85,12 @@ def count_total_tasks():
 
 
 def listen():
-    with mic as source:
+    """with mic as source:
         print("Listening: ")
         try:
             audio = r.listen(source)
             keyword = r.recognize_google(audio)
             return keyword
         except:
-            return ""
+            return """""
+    return input("Keyword: ")

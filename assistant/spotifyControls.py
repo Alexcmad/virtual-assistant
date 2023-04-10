@@ -22,12 +22,12 @@ device = sp.devices()['devices'][0]
 
 
 def get_playlists_by_keyword(keyword):
-    print(keyword)
+    print(f"Searching for playlist matching {keyword}")
     results = []
     try:
         while True:
-            for offset in range(0,100,50):
-                for item in sp.current_user_playlists(limit=50,offset=offset)['items']:
+            for offset in range(0, 100, 50):
+                for item in sp.current_user_playlists(limit=50, offset=offset)['items']:
                     if match_substring(keyword, item['name']):
                         results.append(item)
             break
@@ -44,7 +44,7 @@ def play_playlist(keyword):
         sp.start_playback(device_id=device.get('id'), context_uri=playlist_uri)
         print(f"Now Playing: {playlist_name}")
     except:
-        print(f"Playlist with keyword '{keyword}' not found")
+        print(f"Playlist with keyword '{keyword}' not found in your library")
 
 
 def next_track():
@@ -96,6 +96,26 @@ def volume_down(amount: int = 10):
         if target_vol < 0:
             target_vol = 0
         sp.volume(target_vol, device_id=device.get('id'))
+
+
+def volume_set(amount: int):
+    global device
+    device = sp.current_playback().get('device')
+    if amount < 0:
+        sp.volume(0, device_id=device.get('id'))
+        print("Volume cannot go lower than 0%")
+    elif amount > 100:
+        sp.volume(100, device_id=device.get('id'))
+        print("Volume cannot go higher than 100%")
+    else:
+        sp.volume(amount, device_id=device.get('id'))
+        print(f"Volume set to {amount}%")
+
+
+def restart():
+    global device
+    device =sp.current_playback().get('device')
+    sp.seek_track(position_ms=0,device_id=device.get('id'))
 
 
 def now_playing():

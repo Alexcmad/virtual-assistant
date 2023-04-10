@@ -1,106 +1,123 @@
 import speech_recognition.exceptions
-from dotenv import load_dotenv
-import os
 import speech_recognition as sr
-from assistant import basic, spotifyControls, taskManager
+from assistant import basic, spotifyControls, taskManager, GPT_Engine
 from pprint import pprint
 import pyautogui as pg
-
-load_dotenv()
-GPT_SECRET = os.getenv("GPT_SECRET")
 
 r = sr.Recognizer()
 mic = sr.Microphone()
 
 while True:
     try:
-        with mic as source:
-            r.adjust_for_ambient_noise(source)
-            print("Listening: ")
-            audio = r.listen(source)
-            command: str = r.recognize_google(audio)
-            print(command)
-            command=command.lower()
+        command = input("Command: ")
 
-        if command.startswith("i said "):
-            command = command.lstrip("I said ")
+        gpt_parsing: str = GPT_Engine.interpret_command(command).lower()
 
-        if command.startswith('play'):
-            name = command.lstrip('play ')
+        gpt_parsed_command = gpt_parsing.split('->')[0].strip()
+
+        if gpt_parsed_command.startswith('play'):
+            name = gpt_parsed_command.lstrip('play ')
             spotifyControls.play_playlist(name)
 
-        elif command.startswith('open'):
-            name = command.lstrip('open')
+        elif gpt_parsed_command.startswith('open'):
+            name = gpt_parsed_command.split('open')[1].strip()
             basic.open(name)
 
-        elif command.startswith('close'):
-            name = command.lstrip('close')
+        elif gpt_parsed_command.startswith('close'):
+            name = gpt_parsed_command.split('close')[1].strip()
             basic.close(name)
 
-        elif 'pause' in command:
+        elif 'pause' == gpt_parsed_command:
             spotifyControls.pause()
 
-        elif 'next' in command:
+        elif 'next' == gpt_parsed_command:
             spotifyControls.next_track()
 
-        elif 'previous' in command:
+        elif 'previous' == gpt_parsed_command:
             spotifyControls.previous_track()
 
-        elif 'resume' in command:
+        elif 'resume' == gpt_parsed_command:
             spotifyControls.resume()
 
-        elif command.startswith('add task'):
-            task = command.lstrip('add task')
+        elif gpt_parsed_command.startswith('add task'):
+            task = gpt_parsed_command.split('add task')[1].strip()
+            print(task)
             taskManager.add_task(task)
 
-        elif command.startswith('complete task'):
-            keyword = command.lstrip('complete task ')
+        elif gpt_parsed_command == 'view tasks':
+            taskManager.view_tasks()
+
+        elif gpt_parsed_command.startswith('complete task'):
+            keyword = gpt_parsed_command.split('complete task')[1].strip()
             taskManager.complete_task(keyword)
 
-        elif command.startswith('view task'):
-            keyword = command.lstrip('view task')
+        elif gpt_parsed_command.startswith('view task'):
+            keyword = gpt_parsed_command.split('view task')[1].strip()
             pprint(taskManager.get_tasks_by_keyword(keyword))
 
-        elif 'shuffle' in command:
+        elif 'shuffle' == gpt_parsed_command:
             spotifyControls.shuffle()
 
-        elif command.startswith("volume up"):
+        elif gpt_parsed_command.startswith("volume up"):
             try:
-                amount = int(command.lstrip("volume up"))
-                spotifyControls.volume_up(amount)
+                amount = gpt_parsed_command.split("volume up")[1]
+                if amount:
+                    spotifyControls.volume_up(int(amount))
+                else:
+                    spotifyControls.volume_up()
             except:
                 print("Error Turning Volume Up")
 
-        elif command.startswith("volume down"):
+        elif gpt_parsed_command.startswith("volume down"):
             try:
-                amount = int(command.lstrip("volume down"))
-                spotifyControls.volume_down(amount)
+                amount = gpt_parsed_command.split("volume down")[1]
+                if amount:
+                    spotifyControls.volume_down(int(amount))
+                else:
+                    spotifyControls.volume_down()
             except:
                 print("Error Turning Volume Down")
 
-        elif command.startswith("count completed task"):
+        elif gpt_parsed_command.startswith("volume set"):
+            try:
+                amount = int(gpt_parsed_command.split("volume set")[1].strip())
+                spotifyControls.volume_set(amount)
+            except:
+                print("Error Setting Volume")
+
+        elif gpt_parsed_command == "restart":
+            try:
+                spotifyControls.restart()
+            except:
+                print("Error pulling up this chune")
+
+        elif gpt_parsed_command.startswith("count completed task"):
             print(f"{taskManager.count_complete_tasks()} Tasks Completed")
 
-        elif command.startswith("count incomplete task"):
+        elif gpt_parsed_command.startswith("count incomplete task"):
             print(f"{taskManager.count_incomplete_tasks()} Tasks Incomplete")
 
-        elif command.startswith("count total task"):
+        elif gpt_parsed_command.startswith("count total task"):
             print(f"{taskManager.count_total_tasks()} Tasks in Total")
 
-        elif command.startswith("type"):
-            content = command.strip("type")
+        elif gpt_parsed_command == "clear tasks":
+            taskManager.clear()
+
+        elif gpt_parsed_command.startswith("type"):
+            content = gpt_parsed_command.strip("type")
             pg.write(content)
 
-        elif command == 'enter':
+        elif gpt_parsed_command == 'enter':
             pg.press('enter')
 
-        elif command=='scroll up':
-            pg.scroll(clicks=100)
-        elif command=='scroll down':
-            pg.scroll(clicks=-100)
+        elif gpt_parsed_command == 'scroll up':
+            pg.scroll(clicks=1000)
+        elif gpt_parsed_command == 'scroll down':
+            pg.scroll(clicks=-1000)
         else:
-            print("Command not recognized")
+            print(gpt_parsed_command)
+            print("[The Previous Response was not a valid command therefore no action was taken]")
 
 
-    except speech_recognition.exceptions.UnknownValueError:
-        continue
+    except:
+        print("Assistant ran into an Error")

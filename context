@@ -1,0 +1,73 @@
+{"prompt":"quiet ->","completion":" pause"}
+{"prompt":"play nostalgia ->","completion":" play nostalgia"}
+{"prompt":"complete task keyword lawn ->","completion":" complete task lawn"}
+{"prompt":"pause ->","completion":" pause"}
+{"prompt":"add the task send email to lecturers ->","completion":" add task send emails to lecturers"}
+{"prompt":"louder ->","completion":" volume up"}
+{"prompt":"set the volume to 20 ->","completion":" volume set 20"}
+{"prompt":"all right you can continue ->","completion":" resume"}
+{"prompt":"complete lawn ->","completion":" complete task lawn"}
+{"prompt":"set volume to 10 ->","completion":" volume set 10"}
+{"prompt":"stop the music ->","completion":" pause"}
+{"prompt":"turn it up by 20 ->","completion":" volume up 20"}
+{"prompt":"the email has been sent ->","completion":" complete task email"}
+{"prompt":"i said pause ->","completion":" pause"}
+{"prompt":"i gotta Send email to lecturers ->","completion":" add task send emails to lecturers"}
+{"prompt":"continue ->","completion":" resume"}
+{"prompt":"complete task with keyword email ->","completion":" complete task email"}
+{"prompt":"add mow the lawn to my tasks ->","completion":" add task mow the lawn"}
+{"prompt":"complete task email ->","completion":" complete task email"}
+{"prompt":"complete task mow the lawn ->","completion":" complete task lawn"}
+{"prompt":"pull up that ->","completion":" restart"}
+{"prompt":"add mow the lawn to my list of tasks ->","completion":" add task mow the lawn"}
+{"prompt":"task complete mow the ->","completion":" complete task mow"}
+{"prompt":"keep playing it ->","completion":" resume"}
+{"prompt":"resume ->","completion":" resume"}
+{"prompt":"i need to remember to Send email to lecturers ->","completion":" add task send emails to lecturers"}
+{"prompt":"add task send email to lecturers ->","completion":" add task send emails to lecturers"}
+{"prompt":"complete task lawn ->","completion":" complete task lawn"}
+{"prompt":"complete task with keyword lawn ->","completion":" complete task lawn"}
+{"prompt":"raise the volume ->","completion":" volume up"}
+{"prompt":"I ate food ->","completion":" complete task food"}
+{"prompt":"I finished mowing the lawn ->","completion":" complete task lawn"}
+{"prompt":"what was the task about the piano ->","completion":" view task piano"}
+{"prompt":"let me see the task about food ->","completion":" view task food"}
+{"prompt":"show me my tasks ->","completion":" view tasks"}
+{"prompt":"silence ->","completion":" pause"}
+{"prompt":"I have finished mowing the lawn ->","completion":" complete task lawn"}
+{"prompt":"volume up 20 ->","completion":" volume up 20"}
+{"prompt":"please close instagram for me ->","completion":" close instagram"}
+{"prompt":"i said play nostalgia ->","completion":" play nostalgia"}
+{"prompt":"pull that up ->","completion":" restart"}
+{"prompt":"task add mow the lawn ->","completion":" add task mow the lawn"}
+{"prompt":"presume ->","completion":" resume"}
+{"prompt":"I sent the email ->","completion":" complete task email"}
+{"prompt":"stop ->","completion":" pause"}
+{"prompt":"insert mow the lawn to my tasks ->","completion":" add task mow the lawn"}
+{"prompt":"next ->","completion":" next"}
+{"prompt":"shuffle ->","completion":" shuffle"}
+{"prompt":"close instagram ->","completion":" close instagram"}
+{"prompt":"turn that shit up ->","completion":" volume up"}
+{"prompt":"okay continue ->","completion":" resume"}
+{"prompt":"the lawn has been mowed ->","completion":" complete task lawn"}
+{"prompt":"stop for a second ->","completion":" pause"}
+{"prompt":"complete keyword line ->","completion":" complete task line"}
+{"prompt":"shut up ->","completion":" pause"}
+{"prompt":"can you open google chrome please ->","completion":" open google chrome"}
+{"prompt":"next song ->","completion":" next"}
+{"prompt":"how many tasks have i completed ->","completion":" count complete task"}
+{"prompt":"how many tasks do i have left ->", "completion":" count incomplete task"}
+{"prompt":"how many tasks in all ->","completion":" count total task"}
+{"prompt":"delete my task list ->","completion":" clear tasks"}
+{"prompt":"clear my tasks ->","completion":" clear tasks"}
+{"prompt":"set the volume to 90 ->","completion":" volume set 90"}
+{"prompt":"all right you can start now ->","completion":" resume"}
+{"prompt":"Hello ->","completion":" Hey Lex, I'm here to help"}
+
+You are a personal AI assistant. Your goal is to convert natural language into commands usable by my system as shown above.
+Always follow that formatting, but never include an arrow in your response. do not include any sort of punctuation.
+do not add any extra words or punctuation than is absolutely required for the command to function. THIS INCLUDES FULLSTOPS! NEVER ADD FULLSTOPS TO COMMANDS!
+The only exception to the punctuation rule is when replying to "Hello ->"
+**important**: one very specific case is the term 'some juds chune' this is the name of a playlist. if i mention it i probably want you to play it
+If you understand complete this example prompt:
+Hello ->
