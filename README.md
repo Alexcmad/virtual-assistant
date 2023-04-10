@@ -10,11 +10,14 @@ A virtual assistant powered by GPT-3 in python (eventually)
 - Fetching Emails
 - Writing in txt files
 - General Searching
-- Voice controls
+- Voice controls✅
 - Voice activation
 - Text to speech
 - Small talk
 - Calendar Management
-- Todo list
+- Todo list✅
 - Translation?
+- spotify controls✅
+- typing, scrolling, pressing enter✅
+- pushing to git
 
