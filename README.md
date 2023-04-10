@@ -1,4 +1,4 @@
-# Liz
+# Liz (might change name later)
 A virtual assistant powered by GPT-3.5 in python (eventually)(It is now)
 
 
@@ -33,3 +33,4 @@ https://user-images.githubusercontent.com/113714949/230833558-feedf5fa-9baa-4608
 
 ![image](https://user-images.githubusercontent.com/113714949/230833492-1abab432-cd52-4d84-9936-a8bf25494fbe.png)
 
+![image](https://user-images.githubusercontent.com/113714949/230943377-07a423f7-09a9-4f0c-bd5a-8569a8ede041.png)
