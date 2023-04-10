@@ -37,6 +37,9 @@ def get_playlists_by_keyword(keyword):
 
 
 def play_playlist(keyword):
+    if not keyword:
+        resume()
+        return
     try:
         playlist = get_playlists_by_keyword(keyword)[0]
         playlist_uri = playlist['uri']
@@ -119,4 +122,9 @@ def restart():
 
 
 def now_playing():
-    return sp.currently_playing()
+    try:
+        useful_info =["artists","name","duration_ms"]
+        track = sp.currently_playing().get('item')
+        return {key: track[key] for key in useful_info}
+    except AttributeError:
+        return "No song currently playing"

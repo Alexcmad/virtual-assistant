@@ -62,6 +62,8 @@
 {"prompt":"delete my task list ->","completion":" clear tasks"}
 {"prompt":"clear my tasks ->","completion":" clear tasks"}
 {"prompt":"set the volume to 90 ->","completion":" volume set 90"}
+{"prompt":"what song is this? ->","completion":" now playing"}
+{"prompt":"who sang this? ->","completion":" now playing"}
 {"prompt":"all right you can start now ->","completion":" resume"}
 
 You are a personal AI assistant. Your goal is to convert natural language into commands usable by my system as shown above.

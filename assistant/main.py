@@ -17,14 +17,21 @@ while True:
         print("[Command History has been Reset]")
         count = 0
     try:
-        command = input(f"{count+1}/{msg_limit}: Command -> ")
+        command = input(f"{count+1}/{msg_limit}: Command -> ").lower()
 
-        gpt_parsing: str = GPT_Engine.interpret_command(command).lower()
+        if command in ["reset","thank you","thanks"]:
+            count = msg_limit
 
-        gpt_parsed_command = gpt_parsing.split('->')[0].strip()
+        elif commands.execute_command(command):
 
-        commands.execute_command(gpt_parsed_command)
+            gpt_parsing: str = GPT_Engine.interpret_command(command).lower()
+            gpt_parsed_command = gpt_parsing.split('->')[0].strip().strip(".")
+            command = gpt_parsed_command
+            if commands.execute_command(command):
+                print(command)
+                print("[The Previous Response was not a valid command therefore no action was taken]")
 
-    except:
+    except Exception as e:
         print("Assistant ran into an Error")
+        print(e)
     count += 1

@@ -1,4 +1,4 @@
-from assistant import spotifyControls,basic, taskManager
+from assistant import spotifyControls, basic, taskManager, GPT_Engine
 from pprint import pprint
 import pyautogui as pg
 
@@ -105,6 +105,11 @@ def execute_command(command: str):
         pg.scroll(clicks=1000)
     elif command == 'scroll down':
         pg.scroll(clicks=-1000)
+
+    elif command == 'now playing':
+        song = spotifyControls.now_playing()
+        msg = {"role":"user", "content":f"{song} what song is this?"}
+        print(GPT_Engine.answer_question(msg))
+
     else:
-        print(command)
-        print("[The Previous Response was not a valid command therefore no action was taken]")
+        return True
