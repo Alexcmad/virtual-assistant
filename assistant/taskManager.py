@@ -85,12 +85,12 @@ def count_total_tasks():
 
 
 def listen():
-    """with mic as source:
+    with mic as source:
         print("Listening: ")
         try:
             audio = r.listen(source)
             keyword = r.recognize_google(audio)
             return keyword
         except:
-            return """""
-    return input("Keyword: ")
+            return
+    # return input("Keyword: ")

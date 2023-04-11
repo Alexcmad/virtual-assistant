@@ -1,0 +1,725 @@
+{"prompt":"Play a song from my favorites playlist ->","completion":" play favorites\n"}
+{"prompt":"Play some upbeat music for my workout ->","completion":" play workout\n"}
+{"prompt":"Play my most played songs ->","completion":" play most played\n"}
+{"prompt":"Play some relaxing jazz music ->","completion":" play jazz\n"}
+{"prompt":"Play the latest hits from the 90s ->","completion":" play 90s hits\n"}
+{"prompt":"Play some classical music for studying ->","completion":" play classical\n"}
+{"prompt":"Play some reggae music for a beach party ->","completion":" play reggae\n"}
+{"prompt":"Play my liked songs ->","completion":" play liked songs\n"}
+{"prompt":"Play a random song from my library ->","completion":" play random song\n"}
+{"prompt":"Play some country music for a road trip ->","completion":" play country\n"}
+{"prompt":"Play some indie rock music for a chill session ->","completion":" play indie rock\n"}
+{"prompt":"Play my discover weekly playlist ->","completion":" play discover weekly\n"}
+{"prompt":"Play some old school hip hop ->","completion":" play old school hip hop\n"}
+{"prompt":"Play some EDM tracks for a party ->","completion":" play EDM\n"}
+{"prompt":"Play my favorite movie soundtracks ->","completion":" play favorite movie soundtracks\n"}
+{"prompt":"Play some Latin music for a dance party ->","completion":" play Latin\n"}
+{"prompt":"Play some acoustic guitar music for a cozy evening ->","completion":" play acoustic guitar\n"}
+{"prompt":"Play some top charting pop songs ->","completion":" play top pop songs\n"}
+{"prompt":"Play some motivational songs for a workout session ->","completion":" play motivational\n"}
+{"prompt":"Play some R&B and soul music for a romantic dinner ->","completion":" play R&B and soul\n"}
+{"prompt":"Play some ambient electronic music for relaxation ->","completion":" play ambient electronic\n"}
+{"prompt":"Play some Bollywood songs for a dance-off ->","completion":" play Bollywood\n"}
+{"prompt":"Play some folk music for a bonfire night ->","completion":" play folk\n"}
+{"prompt":"Play some 80s rock ballads for a nostalgic trip ->","completion":" play 80s rock ballads\n"}
+{"prompt":"Play some reggaeton music for a summer pool party ->","completion":" play reggaeton\n"}
+{"prompt":"Play some instrumental jazz for a classy cocktail party ->","completion":" play instrumental jazz\n"}
+{"prompt":"Play some alternative rock music for a road trip ->","completion":" play alternative rock\n"}
+{"prompt":"Play some chillstep tracks for a relaxing evening ->","completion":" play chillstep\n"}
+{"prompt":"Play some African music for a cultural celebration ->","completion":" play African\n"}
+{"prompt":"Put on some hip-hop jams for a chill sesh ->","completion":" play hip-hop\n"}
+{"prompt":"Feelin' the groove, play some funky beats ->","completion":" play funky beats\n"}
+{"prompt":"Blast some bangers for a lit party vibe ->","completion":" play bangers\n"}
+{"prompt":"In the mood for some sick EDM tracks ->","completion":" play EDM\n"}
+{"prompt":"Craving some mellow vibes, play some acoustic tunes ->","completion":" play acoustic\n"}
+{"prompt":"Turn up the volume and play some fire trap beats ->","completion":" play trap\n"}
+{"prompt":"Let's jam out to some indie rock jams ->","completion":" play indie rock\n"}
+{"prompt":"Need some groovy reggaeton to get the party started ->","completion":" play reggaeton\n"}
+{"prompt":"In the mood for some old-school classics, play some throwback hits ->","completion":" play throwback hits\n"}
+{"prompt":"Time for some feel-good pop anthems ->","completion":" play pop\n"}
+{"prompt":"Play some chill vibes for a cozy night in ->","completion":" play chill vibes\n"}
+{"prompt":"Want some vibes to match the beach scene, play some tropical tunes ->","completion":" play tropical\n"}
+{"prompt":"I'm feeling the reggae vibes, play some irie tunes ->","completion":" play reggae\n"}
+{"prompt":"Crack open a cold one and play some country tunes ->","completion":" play country\n"}
+{"prompt":"okay keep playing the music ->","completion":" resume\n"}
+{"prompt":"continue playing ->","completion":" resume\n"}
+{"prompt":"you can start again ->","completion":" resume\n"}
+{"prompt":"keep it going ->","completion":" resume\n"}
+{"prompt":"carry on with the song ->","completion":" resume\n"}
+{"prompt":"resume the music ->","completion":" resume\n"}
+{"prompt":"go ahead and play ->","completion":" resume\n"}
+{"prompt":"keep the music playing ->","completion":" resume\n"}
+{"prompt":"resume the playlist ->","completion":" resume\n"}
+{"prompt":"continue with the track ->","completion":" resume\n"}
+{"prompt":"start playing again ->","completion":" resume\n"}
+{"prompt":"let the music continue ->","completion":" resume\n"}
+{"prompt":"resume the song ->","completion":" resume\n"}
+{"prompt":"unpause the music ->","completion":" resume\n"}
+{"prompt":"carry on with the playlist ->","completion":" resume\n"}
+{"prompt":"keep the track going ->","completion":" resume\n"}
+{"prompt":"resume the audio ->","completion":" resume\n"}
+{"prompt":"play from where it stopped ->","completion":" resume\n"}
+{"prompt":"continue the audio ->","completion":" resume\n"}
+{"prompt":"start playing from where it paused ->","completion":" resume\n"}
+{"prompt":"resume the playback ->","completion":" resume\n"}
+{"prompt":"continue the song ->","completion":" resume\n"}
+{"prompt":"unpause ->","completion":" resume\n"}
+{"prompt":"restart the music ->","completion":" resume\n"}
+{"prompt":"play on ->","completion":" resume\n"}
+{"prompt":"continue from where it left off ->","completion":" resume\n"}
+{"prompt":"resume the track ->","completion":" resume\n"}
+{"prompt":"keep the song going ->","completion":" resume\n"}
+{"prompt":"start again ->","completion":" resume\n"}
+{"prompt":"resume playback ->","completion":" resume\n"}
+{"prompt":"continue the playlist ->","completion":" resume\n"}
+{"prompt":"play from where it paused ->","completion":" resume\n"}
+{"prompt":"resume the audio playback ->","completion":" resume\n"}
+{"prompt":"continue the track ->","completion":" resume\n"}
+{"prompt":"restart the song ->","completion":" resume\n"}
+{"prompt":"resume the music playback ->","completion":" resume\n"}
+{"prompt":"keep playing from where it stopped ->","completion":" resume\n"}
+{"prompt":"continue the audio playback ->","completion":" resume\n"}
+{"prompt":"play on from where it paused ->","completion":" resume\n"}
+{"prompt":"resume the playlist playback ->","completion":" resume\n"}
+{"prompt":"carry on from where it left off ->","completion":" resume\n"}
+{"prompt":"start playing again from where it stopped ->","completion":" resume\n"}
+{"prompt":"resume the playback from where it paused ->","completion":" resume\n"}
+{"prompt":"continue the song from where it left off ->","completion":" resume\n"}
+{"prompt":"unpause the playback ->","completion":" resume\n"}
+{"prompt":"Add the task 'Send email to colleagues' ->","completion":" add task send email to colleagues\n"}
+{"prompt":"Need to remember to pick up groceries ->","completion":" add task pick up groceries\n"}
+{"prompt":"I should schedule a dentist appointment ->","completion":" add task schedule dentist appointment\n"}
+{"prompt":"Gotta pay the bills ->","completion":" add task pay the bills\n"}
+{"prompt":"Don't forget to call mom ->","completion":" add task call mom\n"}
+{"prompt":"I need to book a flight for my vacation ->","completion":" add task book flight for vacation\n"}
+{"prompt":"Time to clean the garage ->","completion":" add task clean garage\n"}
+{"prompt":"I have to submit my report by tomorrow ->","completion":" add task submit report by tomorrow\n"}
+{"prompt":"I should water the plants in the evening ->","completion":" add task water plants in evening\n"}
+{"prompt":"I need to update my resume ->","completion":" add task update resume\n"}
+{"prompt":"Gotta prepare for the upcoming meeting ->","completion":" add task prepare for meeting\n"}
+{"prompt":"I need to fix the leaky faucet ->","completion":" add task fix leaky faucet\n"}
+{"prompt":"Don't forget to walk the dog in the morning ->","completion":" add task walk dog in morning\n"}
+{"prompt":"Time to organize my bookshelf ->","completion":" add task organize bookshelf\n"}
+{"prompt":"I should start exercising regularly ->","completion":" add task start exercising regularly\n"}
+{"prompt":"I need to buy groceries for the week ->","completion":" add task buy groceries for the week\n"}
+{"prompt":"I should make a dentist appointment for a check-up ->","completion":" add task make dentist appointment for check-up\n"}
+{"prompt":"I have to submit my taxes by the end of the month ->","completion":" add task submit taxes by end of month\n"}
+{"prompt":"Don't forget to call the insurance company to update policy ->","completion":" add task call insurance company to update policy\n"}
+{"prompt":"I need to schedule a car maintenance appointment ->","completion":" add task schedule car maintenance appointment\n"}
+{"prompt":"Time to clean out the refrigerator and pantry ->","completion":" add task clean out refrigerator and pantry\n"}
+{"prompt":"I should create a budget for next month ->","completion":" add task create budget for next month\n"}
+{"prompt":"I have to send a birthday gift to my friend ->","completion":" add task send birthday gift to friend\n"}
+{"prompt":"Don't forget to renew my gym membership ->","completion":" add task renew gym membership\n"}
+{"prompt":"I need to update my passwords for online accounts ->","completion":" add task update passwords for online accounts\n"}
+{"prompt":"Time to schedule a haircut appointment ->","completion":" add task schedule haircut appointment\n"}
+{"prompt":"I should start meal planning for the week ->","completion":" add task start meal planning for week\n"}
+{"prompt":"I have to send out invitations for my upcoming party ->","completion":" add task send out invitations for party\n"}
+{"prompt":"Don't forget to pay the credit card bill by the due date ->","completion":" add task pay credit card bill by due date\n"}
+{"prompt":"I need to declutter and organize my closet ->","completion":" add task declutter and organize closet\n"}
+{"prompt":"view task piano ->","completion":" view task piano\n"}
+{"prompt":"show me the cat task ->","completion":" view task cat\n"}
+{"prompt":"what was the task about the email ->","completion":" view task email\n"}
+{"prompt":"can you display the task for groceries ->","completion":" view task groceries\n"}
+{"prompt":"what's the status of the meeting task? ->","completion":" view task meeting\n"}
+{"prompt":"pull up the task for laundry ->","completion":" view task laundry\n"}
+{"prompt":"show me the task related to exercise ->","completion":" view task exercise\n"}
+{"prompt":"display the task for calling mom ->","completion":" view task cal mom\n"}
+{"prompt":"what's the information on the task for buying tickets? ->","completion":" view task buy tickets\n"}
+{"prompt":"check the task for scheduling appointment ->","completion":" view task schedule appointment\n"}
+{"prompt":"show me the task related to studying ->","completion":" view task studying\n"}
+{"prompt":"what's the task for fixing the broken shelf? ->","completion":" view task fix broken shelf\n"}
+{"prompt":"display the task for paying bills ->","completion":" view task paying bills\n"}
+{"prompt":"what's the status of the task for booking flight tickets? ->","completion":" view task book flight tickets\n"}
+{"prompt":"pull up the task for submitting the report ->","completion":" view task submit report\n"}
+{"prompt":"Show me the details of the task for cleaning the garage ->","completion":" View task clean garage\n"}
+{"prompt":"What are the specifics of the task for scheduling a meeting? ->","completion":" View task schedule meeting\n"}
+{"prompt":"I need to know the details of the task for preparing dinner ->","completion":" View task prepare dinner\n"}
+{"prompt":"Can you give me the information about the task for organizing the files? ->","completion":" View task organize files\n"}
+{"prompt":"Tell me about the task for booking a flight ->","completion":" View task book flight\n"}
+{"prompt":"I want to see the details of the task for writing a report ->","completion":" View task write report\n"}
+{"prompt":"What's the information about the task for completing the project? ->","completion":" View task complete project\n"}
+{"prompt":"I need to view the specifics of the task for sending emails ->","completion":" View task send emails\n"}
+{"prompt":"Give me the details of the task for shopping groceries ->","completion":" View task shop groceries\n"}
+{"prompt":"What is the information of the task for updating the website? ->","completion":" View task update website\n"}
+{"prompt":"I want to know the specifics of the task for booking a hotel ->","completion":" View task book hotel\n"}
+{"prompt":"Please show me the details of the task for washing the car ->","completion":" View task wash car\n"}
+{"prompt":"What are the specifics of the task for creating a presentation? ->","completion":" View task create presentation\n"}
+{"prompt":"I need to view the information about the task for organizing an event ->","completion":" View task organize event\n"}
+{"prompt":"Tell me about the details of the task for setting up the new system ->","completion":" View task set up system\n"}
+{"prompt":"What's the information of the task for writing an article? ->","completion":" View task write article\n"}
+{"prompt":"I want to see the specifics of the task for designing a logo ->","completion":" View task design logo\n"}
+{"prompt":"Can you give me the details of the task for making a presentation? ->","completion":" View task make presentation\n"}
+{"prompt":"I need to know the information about the task for conducting research ->","completion":" View task conduct research\n"}
+{"prompt":"Show me the specifics of the task for creating a budget ->","completion":" View task create budget\n"}
+{"prompt":"What are the details of the task for organizing a workshop? ->","completion":" View task organize workshop\n"}
+{"prompt":"I want to view the information about the task for designing a website ->","completion":" View task design website\n"}
+{"prompt":"Tell me about the specifics of the task for reviewing the proposal ->","completion":" View task review proposal\n"}
+{"prompt":"Please show me the details of the task for setting up the email account ->","completion":" View task set up email account\n"}
+{"prompt":"What is the information of the task for conducting interviews? ->","completion":" View task conduct interviews\n"}
+{"prompt":"I need to see the specifics of the task for creating a marketing plan ->","completion":" View task create marketing plan\n"}
+{"prompt":"show me my tasks ->","completion":" view tasks\n"}
+{"prompt":"display my task list ->","completion":" view tasks\n"}
+{"prompt":"what are my pending tasks? ->","completion":" view tasks\n"}
+{"prompt":"list all my tasks ->","completion":" view tasks\n"}
+{"prompt":"can you show me my to-do list? ->","completion":" view tasks\n"}
+{"prompt":"get me the list of my tasks ->","completion":" view tasks\n"}
+{"prompt":"I need to see what tasks I have ->","completion":" view tasks\n"}
+{"prompt":"show me the tasks I need to do ->","completion":" view tasks\n"}
+{"prompt":"retrieve my pending tasks ->","completion":" view tasks\n"}
+{"prompt":"what's on my task list? ->","completion":" view tasks\n"}
+{"prompt":"pull up my tasks ->","completion":" view tasks\n"}
+{"prompt":"I want to see my task list ->","completion":" view tasks\n"}
+{"prompt":"fetch my tasks ->","completion":" view tasks\n"}
+{"prompt":"show me the tasks I haven't completed ->","completion":" view tasks\n"}
+{"prompt":"what tasks do I have remaining? ->","completion":" view tasks\n"}
+{"prompt":"list my incomplete tasks ->","completion":" view tasks\n"}
+{"prompt":"give me an overview of my tasks ->","completion":" view tasks\n"}
+{"prompt":"what tasks are pending? ->","completion":" view tasks\n"}
+{"prompt":"show me the tasks I need to finish ->","completion":" view tasks\n"}
+{"prompt":"display my to-do list ->","completion":" view tasks\n"}
+{"prompt":"retrieve my task list ->","completion":" view tasks\n"}
+{"prompt":"what tasks are left to do? ->","completion":" view tasks\n"}
+{"prompt":"list my tasks to complete ->","completion":" view tasks\n"}
+{"prompt":"show me my upcoming tasks ->","completion":" view tasks\n"}
+{"prompt":"display my pending to-dos ->","completion":" view tasks\n"}
+{"prompt":"what tasks are due this week? ->","completion":" view tasks\n"}
+{"prompt":"list my tasks for today ->","completion":" view tasks\n"}
+{"prompt":"retrieve my overdue tasks ->","completion":" view tasks\n"}
+{"prompt":"show me my high priority tasks ->","completion":" view tasks\n"}
+{"prompt":"display my tasks by deadline ->","completion":" view tasks\n"}
+{"prompt":"what tasks are assigned to me? ->","completion":" view tasks\n"}
+{"prompt":"list my completed tasks ->","completion":" view tasks\n"}
+{"prompt":"retrieve my archived tasks ->","completion":" view tasks\n"}
+{"prompt":"show me my tasks for next week ->","completion":" view tasks\n"}
+{"prompt":"display my tasks by category ->","completion":" view tasks\n"}
+{"prompt":"what tasks are overdue? ->","completion":" view tasks\n"}
+{"prompt":"list my tasks by priority ->","completion":" view tasks\n"}
+{"prompt":"retrieve my tasks with attachments ->","completion":" view tasks\n"}
+{"prompt":"show me my tasks with due dates ->","completion":" view tasks\n"}
+{"prompt":"display my tasks by status ->","completion":" view tasks\n"}
+{"prompt":"what tasks are labeled as important? ->","completion":" view tasks\n"}
+{"prompt":"list my tasks with notes ->","completion":" view tasks\n"}
+{"prompt":"start over this song ->","completion":" restart\n"}
+{"prompt":"restart this track ->","completion":" restart\n"}
+{"prompt":"go back to the beginning ->","completion":" restart\n"}
+{"prompt":"begin again ->","completion":" restart\n"}
+{"prompt":"reset the song ->","completion":" restart\n"}
+{"prompt":"replay the track ->","completion":" restart\n"}
+{"prompt":"rewind the music ->","completion":" restart\n"}
+{"prompt":"back to the start ->","completion":" restart\n"}
+{"prompt":"restart the current song ->","completion":" restart\n"}
+{"prompt":"start from the top ->","completion":" restart\n"}
+{"prompt":"go back to the beginning of the song ->","completion":" restart\n"}
+{"prompt":"replay from the beginning ->","completion":" restart\n"}
+{"prompt":"restart this music ->","completion":" restart\n"}
+{"prompt":"rewind to the beginning ->","completion":" restart\n"}
+{"prompt":"reset the track ->","completion":" restart\n"}
+{"prompt":"begin from the start ->","completion":" restart\n"}
+{"prompt":"replay from the intro ->","completion":" restart\n"}
+{"prompt":"restart the current track ->","completion":" restart\n"}
+{"prompt":"go back to the intro ->","completion":" restart\n"}
+{"prompt":"reset the song to the beginning ->","completion":" restart\n"}
+{"prompt":"replay the song from the start ->","completion":" restart\n"}
+{"prompt":"start this track again ->","completion":" restart\n"}
+{"prompt":"go back to the start of the music ->","completion":" restart\n"}
+{"prompt":"restart the song from the beginning ->","completion":" restart\n"}
+{"prompt":"rewind to the intro ->","completion":" restart\n"}
+{"prompt":"reset the music ->","completion":" restart\n"}
+{"prompt":"begin the track again ->","completion":" restart\n"}
+{"prompt":"restart the current music ->","completion":" restart\n"}
+{"prompt":"replay from the start of the song ->","completion":" restart\n"}
+{"prompt":"restart this song from the beginning ->","completion":" restart\n"}
+{"prompt":"start the track over ->","completion":" restart\n"}
+{"prompt":"rewind the song ->","completion":" restart\n"}
+{"prompt":"reset the track to the start ->","completion":" restart\n"}
+{"prompt":"delete all tasks ->","completion":" clear tasks\n"}
+{"prompt":"clear my task list please ->","completion":" clear tasks\n"}
+{"prompt":"remove all tasks from the list ->","completion":" clear tasks\n"}
+{"prompt":"erase all tasks ->","completion":" clear tasks\n"}
+{"prompt":"start with a clean slate ->","completion":" clear tasks\n"}
+{"prompt":"wipe out all the tasks ->","completion":" clear tasks\n"}
+{"prompt":"remove all pending tasks ->","completion":" clear tasks\n"}
+{"prompt":"clean up the task list ->","completion":" clear tasks\n"}
+{"prompt":"delete all incomplete tasks ->","completion":" clear tasks\n"}
+{"prompt":"empty the task list ->","completion":" clear tasks\n"}
+{"prompt":"get rid of all tasks ->","completion":" clear tasks\n"}
+{"prompt":"clear all tasks from the list ->","completion":" clear tasks\n"}
+{"prompt":"reset the task list ->","completion":" clear tasks\n"}
+{"prompt":"delete all tasks in the list ->","completion":" clear tasks\n"}
+{"prompt":"start fresh with no tasks ->","completion":" clear tasks\n"}
+{"prompt":"clear all pending tasks ->","completion":" clear tasks\n"}
+{"prompt":"remove all tasks from memory ->","completion":" clear tasks\n"}
+{"prompt":"wipe the task list clean ->","completion":" clear tasks\n"}
+{"prompt":"erase all pending tasks ->","completion":" clear tasks\n"}
+{"prompt":"clean the task list ->","completion":" clear tasks\n"}
+{"prompt":"delete all tasks from memory ->","completion":" clear tasks\n"}
+{"prompt":"reset the task list completely ->","completion":" clear tasks\n"}
+{"prompt":"clear all tasks and start over ->","completion":" clear tasks\n"}
+{"prompt":"remove all tasks and reset ->","completion":" clear tasks\n"}
+{"prompt":"empty the entire task list ->","completion":" clear tasks\n"}
+{"prompt":"wipe all tasks from the list ->","completion":" clear tasks\n"}
+{"prompt":"erase all tasks and reset ->","completion":" clear tasks\n"}
+{"prompt":"clear all tasks and reset list ->","completion":" clear tasks\n"}
+{"prompt":"delete all tasks and reset ->","completion":" clear tasks\n"}
+{"prompt":"start with a blank task list ->","completion":" clear tasks\n"}
+{"prompt":"remove all tasks and start fresh ->","completion":" clear tasks\n"}
+{"prompt":"delete all tasks and start over ->","completion":" clear tasks\n"}
+{"prompt":"wipe out all tasks and reset ->","completion":" clear tasks\n"}
+{"prompt":"erase all tasks and start fresh ->","completion":" clear tasks\n"}
+{"prompt":"clean up the entire task list ->","completion":" clear tasks\n"}
+{"prompt":"remove all tasks and wipe clean ->","completion":" clear tasks\n"}
+{"prompt":"delete all tasks and wipe out ->","completion":" clear tasks\n"}
+{"prompt":"reset the task list and clear ->","completion":" clear tasks\n"}
+{"prompt":"empty the task list and start fresh ->","completion":" clear tasks\n"}
+{"prompt":"open Google Chrome please ->","completion":" open Google Chrome\n"}
+{"prompt":"open Facebook for me ->","completion":" open Facebook\n"}
+{"prompt":"can you open YouTube ->","completion":" open YouTube\n"}
+{"prompt":"open Spotify ->","completion":" open Spotify\n"}
+{"prompt":"please open Microsoft Word ->","completion":" open Microsoft Word\n"}
+{"prompt":"open Gmail for me ->","completion":" open Gmail\n"}
+{"prompt":"can you open Instagram ->","completion":" open Instagram\n"}
+{"prompt":"open Netflix ->","completion":" open Netflix\n"}
+{"prompt":"please open Amazon ->","completion":" open Amazon\n"}
+{"prompt":"open Twitter for me ->","completion":" open Twitter\n"}
+{"prompt":"can you open WhatsApp ->","completion":" open WhatsApp\n"}
+{"prompt":"open Google Maps ->","completion":" open Google Maps\n"}
+{"prompt":"please open Microsoft Excel ->","completion":" open Microsoft Excel\n"}
+{"prompt":"open Pinterest for me ->","completion":" open Pinterest\n"}
+{"prompt":"can you open LinkedIn ->","completion":" open LinkedIn\n"}
+{"prompt":"open Amazon Prime Video ->","completion":" open Amazon Prime Video\n"}
+{"prompt":"please open Google Photos ->","completion":" open Google Photos\n"}
+{"prompt":"open Dropbox for me ->","completion":" open Dropbox\n"}
+{"prompt":"can you open Zoom ->","completion":" open Zoom\n"}
+{"prompt":"open Google Drive ->","completion":" open Google Drive\n"}
+{"prompt":"please open Slack ->","completion":" open Slack\n"}
+{"prompt":"can you open Microsoft PowerPoint ->","completion":" open Microsoft PowerPoint\n"}
+{"prompt":"open Instagram ->","completion":" open Instagram\n"}
+{"prompt":"please open Trello ->","completion":" open Trello\n"}
+{"prompt":"can you open Google Calendar ->","completion":" open Google Calendar\n"}
+{"prompt":"open Adobe Photoshop ->","completion":" open Adobe Photoshop\n"}
+{"prompt":"please open Evernote ->","completion":" open Evernote\n"}
+{"prompt":"can you open Google Translate ->","completion":" open Google Translate\n"}
+{"prompt":"open Microsoft Outlook ->","completion":" open Microsoft Outlook\n"}
+{"prompt":"please open Zoom ->","completion":" open Zoom\n"}
+{"prompt":"can you open Google Docs ->","completion":" open Google Docs\n"}
+{"prompt":"open Notepad ->","completion":" open Notepad\n"}
+{"prompt":"please open Google Sheets ->","completion":" open Google Sheets\n"}
+{"prompt":"can you open VLC Media Player ->","completion":" open VLC Media Player\n"}
+{"prompt":"open Photoshop ->","completion":" open Photoshop\n"}
+{"prompt":"please open Microsoft Teams ->","completion":" open Microsoft Teams\n"}
+{"prompt":"can you open Google Chrome DevTools ->","completion":" open Google Chrome DevTools\n"}
+{"prompt":"open Microsoft OneNote ->","completion":" open Microsoft OneNote\n"}
+{"prompt":"close Google Chrome ->","completion":" close Google Chrome\n"}
+{"prompt":"please close Microsoft Word ->","completion":" close Microsoft Word\n"}
+{"prompt":"can you close Spotify ->","completion":" close Spotify\n"}
+{"prompt":"close Photoshop ->","completion":" close Photoshop\n"}
+{"prompt":"please close Excel ->","completion":" close Excel\n"}
+{"prompt":"can you close Slack ->","completion":" close Slack\n"}
+{"prompt":"close PowerPoint ->","completion":" close PowerPoint\n"}
+{"prompt":"please close Adobe Acrobat ->","completion":" close Adobe Acrobat\n"}
+{"prompt":"can you close Outlook ->","completion":" close Outlook\n"}
+{"prompt":"close Trello ->","completion":" close Trello\n"}
+{"prompt":"please close Zoom ->","completion":" close Zoom\n"}
+{"prompt":"can you close Google Docs ->","completion":" close Google Docs\n"}
+{"prompt":"close Google Sheets ->","completion":" close Google Sheets\n"}
+{"prompt":"please close VLC Media Player ->","completion":" close VLC Media Player\n"}
+{"prompt":"can you close Google Calendar ->","completion":" close Google Calendar\n"}
+{"prompt":"close Notepad ->","completion":" close Notepad\n"}
+{"prompt":"please close Evernote ->","completion":" close Evernote\n"}
+{"prompt":"can you close Microsoft Teams ->","completion":" close Microsoft Teams\n"}
+{"prompt":"close Chrome DevTools ->","completion":" close Chrome DevTools\n"}
+{"prompt":"please close Microsoft OneNote ->","completion":" close Microsoft OneNote\n"}
+{"prompt":"can you close Firefox ->","completion":" close Firefox\n"}
+{"prompt":"close Safari ->","completion":" close Safari\n"}
+{"prompt":"please close File Explorer ->","completion":" close File Explorer\n"}
+{"prompt":"can you close Dropbox ->","completion":" close Dropbox\n"}
+{"prompt":"close iTunes ->","completion":" close iTunes\n"}
+{"prompt":"please close Google Chrome Incognito Window ->","completion":" close Google Chrome Incognito Window\n"}
+{"prompt":"can you close Microsoft Edge ->","completion":" close Microsoft Edge\n"}
+{"prompt":"close Windows Media Player ->","completion":" close Windows Media Player\n"}
+{"prompt":"please close Adobe Photoshop Lightroom ->","completion":" close Adobe Photoshop Lightroom\n"}
+{"prompt":"can you close QuickTime Player ->","completion":" close QuickTime Player\n"}
+{"prompt":"close Microsoft Excel Workbook ->","completion":" close Microsoft Excel Workbook\n"}
+{"prompt":"please close Microsoft Word Document ->","completion":" close Microsoft Word Document\n"}
+{"prompt":"can you close PowerPoint Presentation ->","completion":" close PowerPoint Presentation\n"}
+{"prompt":"close Google Sheets Spreadsheet ->","completion":" close Google Sheets Spreadsheet\n"}
+{"prompt":"please close Microsoft PowerPoint Presentation ->","completion":" close Microsoft PowerPoint Presentation\n"}
+{"prompt":"can you close Google Docs Document ->","completion":" close Google Docs Document\n"}
+{"prompt":"close Adobe Acrobat PDF ->","completion":" close Adobe Acrobat PDF\n"}
+{"prompt":"please close VLC Media Player Playlist ->","completion":" close VLC Media Player Playlist\n"}
+{"prompt":"can you close Google Calendar Event ->","completion":" close Google Calendar Event\n"}
+{"prompt":"close Microsoft Teams Meeting ->","completion":" close Microsoft Teams Meeting\n"}
+{"prompt":"next song ->","completion":" next\n"}
+{"prompt":"skip ->","completion":" next\n"}
+{"prompt":"I don't want to listen to this right now ->","completion":" next\n"}
+{"prompt":"can you please play the next song ->","completion":" next\n"}
+{"prompt":"skip to the next track ->","completion":" next\n"}
+{"prompt":"change to the next song ->","completion":" next\n"}
+{"prompt":"move on to the next track ->","completion":" next\n"}
+{"prompt":"play the next song in the playlist ->","completion":" next\n"}
+{"prompt":"skip this one ->","completion":" next\n"}
+{"prompt":"move forward to the next track ->","completion":" next\n"}
+{"prompt":"change to the next content ->","completion":" next\n"}
+{"prompt":"skip to the next item ->","completion":" next\n"}
+{"prompt":"move to the next song ->","completion":" next\n"}
+{"prompt":"play the next item ->","completion":" next\n"}
+{"prompt":"skip to the next song please ->","completion":" next\n"}
+{"prompt":"move on to the next song in the playlist ->","completion":" next\n"}
+{"prompt":"next track please ->","completion":" next\n"}
+{"prompt":"can you play the next song for me ->","completion":" next\n"}
+{"prompt":"skip to the next song in the queue ->","completion":" next\n"}
+{"prompt":"change to the next song in the playlist ->","completion":" next\n"}
+{"prompt":"move forward to the next song ->","completion":" next\n"}
+{"prompt":"next song on the list ->","completion":" next\n"}
+{"prompt":"skip this track ->","completion":" next\n"}
+{"prompt":"move on to the next content ->","completion":" next\n"}
+{"prompt":"change to the next track in the playlist ->","completion":" next\n"}
+{"prompt":"skip to the next item in the queue ->","completion":" next\n"}
+{"prompt":"move to the next song please ->","completion":" next\n"}
+{"prompt":"play the next item in the playlist ->","completion":" next\n"}
+{"prompt":"skip to the next song in the playlist now ->","completion":" next\n"}
+{"prompt":"move on to the next song in the queue ->","completion":" next\n"}
+{"prompt":"change to the next content in the playlist ->","completion":" next\n"}
+{"prompt":"skip to the next track please ->","completion":" next\n"}
+{"prompt":"move forward to the next song in the playlist ->","completion":" next\n"}
+{"prompt":"next track in the queue ->","completion":" next\n"}
+{"prompt":"skip this song ->","completion":" next\n"}
+{"prompt":"move on to the next item in the playlist ->","completion":" next\n"}
+{"prompt":"change to the next song in the queue ->","completion":" next\n"}
+{"prompt":"skip to the next song in the queue now ->","completion":" next\n"}
+{"prompt":"move to the next song in the queue please ->","completion":" next\n"}
+{"prompt":"play the next item in the queue ->","completion":" next\n"}
+{"prompt":"skip to the next song in the queue immediately ->","completion":" next\n"}
+{"prompt":"previous song ->","completion":" previous\n"}
+{"prompt":"wait go back ->","completion":" previous\n"}
+{"prompt":"can you play the previous track? ->","completion":" previous\n"}
+{"prompt":"I want to hear the previous song again ->","completion":" previous\n"}
+{"prompt":"skip back to the previous track ->","completion":" previous\n"}
+{"prompt":"go back one song ->","completion":" previous\n"}
+{"prompt":"previous track please ->","completion":" previous\n"}
+{"prompt":"replay the previous song ->","completion":" previous\n"}
+{"prompt":"I didn't like that, play the previous song ->","completion":" previous\n"}
+{"prompt":"let's go back to the previous track ->","completion":" previous\n"}
+{"prompt":"go back to the previous song ->","completion":" previous\n"}
+{"prompt":"I want to listen to the previous song ->","completion":" previous\n"}
+{"prompt":"previous song in the queue ->","completion":" previous\n"}
+{"prompt":"go back to the last track ->","completion":" previous\n"}
+{"prompt":"previous song, please ->","completion":" previous\n"}
+{"prompt":"I missed something, play the previous song ->","completion":" previous\n"}
+{"prompt":"skip to the previous track ->","completion":" previous\n"}
+{"prompt":"previous song on the playlist ->","completion":" previous\n"}
+{"prompt":"I want to hear the song before this one ->","completion":" previous\n"}
+{"prompt":"previous song, thank you ->","completion":" previous\n"}
+{"prompt":"go back to the previous track, please ->","completion":" previous\n"}
+{"prompt":"play the song that came before ->","completion":" previous\n"}
+{"prompt":"replay the previous track ->","completion":" previous\n"}
+{"prompt":"I want to go back to the previous song ->","completion":" previous\n"}
+{"prompt":"previous song, rewind ->","completion":" previous\n"}
+{"prompt":"play the track before this one ->","completion":" previous\n"}
+{"prompt":"skip back to the previous song ->","completion":" previous\n"}
+{"prompt":"I didn't like that song, play the previous one ->","completion":" previous\n"}
+{"prompt":"go back to the song that played before this one ->","completion":" previous\n"}
+{"prompt":"previous track, please ->","completion":" previous\n"}
+{"prompt":"play the song that was on before ->","completion":" previous\n"}
+{"prompt":"replay the track that came before this one ->","completion":" previous\n"}
+{"prompt":"go back to the previous track in the playlist ->","completion":" previous\n"}
+{"prompt":"previous song, go back ->","completion":" previous\n"}
+{"prompt":"I want to listen to the song that played before this ->","completion":" previous\n"}
+{"prompt":"skip to the previous song, please ->","completion":" previous\n"}
+{"prompt":"previous track in the queue, please ->","completion":" previous\n"}
+{"prompt":"go back one song, rewind ->","completion":" previous\n"}
+{"prompt":"previous song, replay ->","completion":" previous\n"}
+{"prompt":"I missed something, play the song that came before this ->","completion":" previous\n"}
+{"prompt":"go back to the previous song in the playlist ->","completion":" previous\n"}
+{"prompt":"replay the previous song, please ->","completion":" previous\n"}
+{"prompt":"previous track on repeat ->","completion":" previous\n"}
+{"prompt":"go back to the previous song, rewind ->","completion":" previous\n"}
+{"prompt":"play the track before this one, please ->","completion":" previous\n"}
+{"prompt":"previous song in the queue, rewind ->","completion":" previous\n"}
+{"prompt":"I want to hear the song that played before this one, please ->","completion":" previous\n"}
+{"prompt":"skip back to the previous track in the playlist ->","completion":" previous\n"}
+{"prompt":"previous song, go back, rewind ->","completion":" previous\n"}
+{"prompt":"play the song that was on before, please ->","completion":" previous\n"}
+{"prompt":"replay the track that came before this one, rewind ->","completion":" previous\n"}
+{"prompt":"go back to the previous track in the queue ->","completion":" previous\n"}
+{"prompt":"previous song, replay, rewind ->","completion":" previous\n"}
+{"prompt":"I missed something, play the song that came before this, please ->","completion":" previous\n"}
+{"prompt":"go back to the previous song in the playlist, rewind ->","completion":" previous\n"}
+{"prompt":"previous track, go back, rewind ->","completion":" previous\n"}
+{"prompt":"play the previous song again, rewind ->","completion":" previous\n"}
+{"prompt":"replay the previous track in the queue ->","completion":" previous\n"}
+{"prompt":"go back to the last song, rewind ->","completion":" previous\n"}
+{"prompt":"previous song, rewind, replay ->","completion":" previous\n"}
+{"prompt":"play the song before this one, rewind ->","completion":" previous\n"}
+{"prompt":"what song is this? ->","completion":" now playing\n"}
+{"prompt":"can you tell me the name of this song? ->","completion":" now playing\n"}
+{"prompt":"what's the title of this track? ->","completion":" now playing\n"}
+{"prompt":"identify this song please ->","completion":" now playing\n"}
+{"prompt":"I need to know the name of this music ->","completion":" now playing\n"}
+{"prompt":"song recognition, what's playing? ->","completion":" now playing\n"}
+{"prompt":"please tell me the current song ->","completion":" now playing\n"}
+{"prompt":"what's the song playing right now? ->","completion":" now playing\n"}
+{"prompt":"identify the track that's currently on ->","completion":" now playing\n"}
+{"prompt":"I want to know the title of this song ->","completion":" now playing\n"}
+{"prompt":"what's the name of this song playing? ->","completion":" now playing\n"}
+{"prompt":"song info, what's playing? ->","completion":" now playing\n"}
+{"prompt":"please give me the title of the current track ->","completion":" now playing\n"}
+{"prompt":"identify this music for me ->","completion":" now playing\n"}
+{"prompt":"what's the current song's name? ->","completion":" now playing\n"}
+{"prompt":"I need to know the title of the current music ->","completion":" now playing\n"}
+{"prompt":"identify the song that's currently playing ->","completion":" now playing\n"}
+{"prompt":"what's the name of the song that's playing now? ->","completion":" now playing\n"}
+{"prompt":"song recognition, what's currently playing? ->","completion":" now playing\n"}
+{"prompt":"please tell me the title of the current track ->","completion":" now playing\n"}
+{"prompt":"song info, what's currently playing? ->","completion":" now playing\n"}
+{"prompt":"please give me the title of the current song ->","completion":" now playing\n"}
+{"prompt":"identify the music that's currently on ->","completion":" now playing\n"}
+{"prompt":"what's the name of this song that's playing? ->","completion":" now playing\n"}
+{"prompt":"song recognition, what's playing currently? ->","completion":" now playing\n"}
+{"prompt":"please tell me the title of the currently playing track ->","completion":" now playing\n"}
+{"prompt":"what's the current song's title? ->","completion":" now playing\n"}
+{"prompt":"identify this track for me ->","completion":" now playing\n"}
+{"prompt":"what's the name of the music that's currently playing? ->","completion":" now playing\n"}
+{"prompt":"song info, what's playing now? ->","completion":" now playing\n"}
+{"prompt":"please give me the title of the currently playing song ->","completion":" now playing\n"}
+{"prompt":"identify the current song ->","completion":" now playing\n"}
+{"prompt":"what's the name of this song currently playing? ->","completion":" now playing\n"}
+{"prompt":"song recognition, what's playing now? ->","completion":" now playing\n"}
+{"prompt":"What is the capital of France? ->","completion":" ask question what is the capital of France\n"}
+{"prompt":"How far away is the moon? ->","completion":" ask question how far away is the moon\n"}
+{"prompt":"Tell me about the history of Rome. ->","completion":" ask question tell me about the history of Rome\n"}
+{"prompt":"Who won the last World Cup? ->","completion":" ask question who won the last World Cup\n"}
+{"prompt":"What are the symptoms of COVID-19? ->","completion":" ask question what are the symptoms of COVID-19\n"}
+{"prompt":"How does photosynthesis work? ->","completion":" ask question how does photosynthesis work\n"}
+{"prompt":"What is the square root of 64? ->","completion":" ask question what is the square root of 64\n"}
+{"prompt":"When was the Declaration of Independence signed? ->","completion":" ask question when was the Declaration of Independence signed\n"}
+{"prompt":"What are the benefits of exercise? ->","completion":" ask question what are the benefits of exercise\n"}
+{"prompt":"How do you bake a chocolate cake? ->","completion":" ask question how do you bake a chocolate cake\n"}
+{"prompt":"What is the meaning of life? ->","completion":" ask question what is the meaning of life\n"}
+{"prompt":"Who is the current President of the United States? ->","completion":" ask question who is the current President of the United States\n"}
+{"prompt":"What is the formula for calculating area of a circle? ->","completion":" ask question what is the formula for calculating area of a circle\n"}
+{"prompt":"How does gravity work? ->","completion":" ask question how does gravity work\n"}
+{"prompt":"What is the fastest land animal? ->","completion":" ask question what is the fastest land animal\n"}
+{"prompt":"Who painted the Mona Lisa? ->","completion":" ask question who painted the Mona Lisa\n"}
+{"prompt":"What are the main ingredients in a margherita pizza? ->","completion":" ask question what are the main ingredients in a margherita pizza\n"}
+{"prompt":"How does a computer mouse work? ->","completion":" ask question how does a computer mouse work\n"}
+{"prompt":"What is the chemical symbol for gold? ->","completion":" ask question what is the chemical symbol for gold\n"}
+{"prompt":"What is the significance of the Eiffel Tower? ->","completion":" ask question what is the significance of the Eiffel Tower\n"}
+{"prompt":"How does the internet work? ->","completion":" ask question how does the internet work\n"}
+{"prompt":"What is the process of digestion in humans? ->","completion":" ask question what is the process of digestion in humans\n"}
+{"prompt":"Who wrote the play 'Romeo and Juliet'? ->","completion":" ask question who wrote the play 'Romeo and Juliet'\n"}
+{"prompt":"What is the capital of Brazil? ->","completion":" ask question what is the capital of Brazil\n"}
+{"prompt":"How does the human respiratory system work? ->","completion":" ask question how does the human respiratory system work\n"}
+{"prompt":"What is the concept of supply and demand in economics? ->","completion":" ask question what is the concept of supply and demand in economics\n"}
+{"prompt":"Who is the author of the Harry Potter book series? ->","completion":" ask question who is the author of the Harry Potter book series\n"}
+{"prompt":"What is the process of photosynthesis in plants? ->","completion":" ask question what is the process of photosynthesis in plants\n"}
+{"prompt":"How does the water cycle work? ->","completion":" ask question how does the water cycle work\n"}
+{"prompt":"What is the theory of relativity proposed by Albert Einstein? ->","completion":" ask question what is the theory of relativity proposed by Albert Einstein\n"}
+{"prompt":"Who was the first person to step on the moon? ->","completion":" ask question who was the first person to step on the moon\n"}
+{"prompt":"What is the function of mitochondria in cells? ->","completion":" ask question what is the function of mitochondria in cells\n"}
+{"prompt":"How does the immune system work? ->","completion":" ask question how does the immune system work\n"}
+{"prompt":"What are the properties of water? ->","completion":" ask question what are the properties of water\n"}
+{"prompt":"Who is known as the 'Father of Modern Physics'? ->","completion":" ask question who is known as the 'Father of Modern Physics'\n"}
+{"prompt":"What is the impact of climate change on the environment? ->","completion":" ask question what is the impact of climate change on the environment\n"}
+{"prompt":"How does the human nervous system work? ->","completion":" ask question how does the human nervous system work\n"}
+{"prompt":"What is the concept of natural selection in evolution? ->","completion":" ask question what is the concept of natural selection in evolution\n"}
+{"prompt":"louder ->","completion":" volume up\n"}
+{"prompt":"increase the volume ->","completion":" volume up\n"}
+{"prompt":"turn it up ->","completion":" volume up\n"}
+{"prompt":"make it louder ->","completion":" volume up\n"}
+{"prompt":"raise the volume ->","completion":" volume up\n"}
+{"prompt":"up the volume ->","completion":" volume up\n"}
+{"prompt":"boost the volume ->","completion":" volume up\n"}
+{"prompt":"crank up the volume ->","completion":" volume up\n"}
+{"prompt":"increase volume level ->","completion":" volume up\n"}
+{"prompt":"turn the volume higher ->","completion":" volume up\n"}
+{"prompt":"amplify the sound ->","completion":" volume up\n"}
+{"prompt":"make it louder please ->","completion":" volume up\n"}
+{"prompt":"turn up the volume a bit ->","completion":" volume up\n"}
+{"prompt":"raise the sound level ->","completion":" volume up\n"}
+{"prompt":"adjust the volume higher ->","completion":" volume up\n"}
+{"prompt":"increase audio volume ->","completion":" volume up\n"}
+{"prompt":"louder sound ->","completion":" volume up\n"}
+{"prompt":"turn up the audio ->","completion":" volume up\n"}
+{"prompt":"make the volume louder ->","completion":" volume up\n"}
+{"prompt":"raise the audio level ->","completion":" volume up\n"}
+{"prompt":"increase volume please ->","completion":" volume up\n"}
+{"prompt":"turn up the sound ->","completion":" volume up\n"}
+{"prompt":"make it louder now ->","completion":" volume up\n"}
+{"prompt":"volume increase ->","completion":" volume up\n"}
+{"prompt":"turn the volume up high ->","completion":" volume up\n"}
+{"prompt":"louder audio ->","completion":" volume up\n"}
+{"prompt":"boost the audio ->","completion":" volume up\n"}
+{"prompt":"volume up all the way ->","completion":" volume up\n"}
+{"prompt":"crank up the sound ->","completion":" volume up\n"}
+{"prompt":"raise the volume level ->","completion":" volume up\n"}
+{"prompt":"increase the sound ->","completion":" volume up\n"}
+{"prompt":"turn up the volume please ->","completion":" volume up\n"}
+{"prompt":"make it louder a bit ->","completion":" volume up\n"}
+{"prompt":"volume up to 11 ->","completion":" volume up 11\n"}
+{"prompt":"turn it up a notch ->","completion":" volume up\n"}
+{"prompt":"make the volume higher ->","completion":" volume up\n"}
+{"prompt":"raise the volume a little ->","completion":" volume up\n"}
+{"prompt":"increase the audio ->","completion":" volume up\n"}
+{"prompt":"louder volume setting ->","completion":" volume up\n"}
+{"prompt":"turn up the sound level ->","completion":" volume up\n"}
+{"prompt":"raise the volume please ->","completion":" volume up\n"}
+{"prompt":"volume up to the max ->","completion":" volume set 100\n"}
+{"prompt":"maximize the volume ->","completion":" volume set 100\n"}
+{"prompt":"set the volume to 50 ->","completion":" volume set 50\n"}
+{"prompt":"increase the volume to maximum ->","completion":" volume set 100\n"}
+{"prompt":"lower the volume to 30 ->","completion":" volume set 30\n"}
+{"prompt":"set the volume to minimum ->","completion":" volume set 0\n"}
+{"prompt":"adjust the volume to 80 ->","completion":" volume set 80\n"}
+{"prompt":"set the volume to 10 ->","completion":" volume set 10\n"}
+{"prompt":"increase the volume to 70 ->","completion":" volume set 70\n"}
+{"prompt":"lower the volume to 20 ->","completion":" volume set 20\n"}
+{"prompt":"set the volume to 90 ->","completion":" volume set 90\n"}
+{"prompt":"adjust the volume to 40 ->","completion":" volume set 40\n"}
+{"prompt":"set the volume to 60 ->","completion":" volume set 60\n"}
+{"prompt":"increase the volume to 100 ->","completion":" volume set 100\n"}
+{"prompt":"lower the volume to 50 ->","completion":" volume set 50\n"}
+{"prompt":"set the volume to 75 ->","completion":" volume set 75\n"}
+{"prompt":"adjust the volume to 25 ->","completion":" volume set 25\n"}
+{"prompt":"set the volume to 85 ->","completion":" volume set 85\n"}
+{"prompt":"increase the volume to 95 ->","completion":" volume set 95\n"}
+{"prompt":"lower the volume to 15 ->","completion":" volume set 15\n"}
+{"prompt":"set the volume to 55 ->","completion":" volume set 55\n"}
+{"prompt":"volume down ->","completion":" volume down\n"}
+{"prompt":"lower the volume ->","completion":" volume down\n"}
+{"prompt":"reduce the volume ->","completion":" volume down\n"}
+{"prompt":"make it quieter ->","completion":" volume down\n"}
+{"prompt":"turn down the volume ->","completion":" volume down\n"}
+{"prompt":"decrease the volume ->","completion":" volume down\n"}
+{"prompt":"quiet down ->","completion":" volume down\n"}
+{"prompt":"less volume ->","completion":" volume down\n"}
+{"prompt":"lower the sound ->","completion":" volume down\n"}
+{"prompt":"turn it down ->","completion":" volume down\n"}
+{"prompt":"reduce the sound ->","completion":" volume down\n"}
+{"prompt":"make it less loud ->","completion":" volume down\n"}
+{"prompt":"lower the audio ->","completion":" volume down\n"}
+{"prompt":"decrease the sound ->","completion":" volume down\n"}
+{"prompt":"quieter please ->","completion":" volume down\n"}
+{"prompt":"reduce the noise ->","completion":" volume down\n"}
+{"prompt":"turn down the audio ->","completion":" volume down\n"}
+{"prompt":"make it softer ->","completion":" volume down\n"}
+{"prompt":"lower the volume level ->","completion":" volume down\n"}
+{"prompt":"reduce the volume level ->","completion":" volume down\n"}
+{"prompt":"quieter volume ->","completion":" volume down\n"}
+{"prompt":"turn the volume down ->","completion":" volume down\n"}
+{"prompt":"lower the volume please ->","completion":" volume down\n"}
+{"prompt":"decrease the volume level ->","completion":" volume down\n"}
+{"prompt":"make it less noisy ->","completion":" volume down\n"}
+{"prompt":"lower the sound level ->","completion":" volume down\n"}
+{"prompt":"turn down the sound ->","completion":" volume down\n"}
+{"prompt":"reduce the audio ->","completion":" volume down\n"}
+{"prompt":"make it quieter please ->","completion":" volume down\n"}
+{"prompt":"lower the music ->","completion":" volume down\n"}
+{"prompt":"decrease the audio ->","completion":" volume down\n"}
+{"prompt":"reduce the volume level please ->","completion":" volume down\n"}
+{"prompt":"turn down the volume level ->","completion":" volume down\n"}
+{"prompt":"make it softer please ->","completion":" volume down\n"}
+{"prompt":"lower the volume a bit ->","completion":" volume down\n"}
+{"prompt":"reduce the sound level ->","completion":" volume down\n"}
+{"prompt":"turn the sound down ->","completion":" volume down\n"}
+{"prompt":"quieter audio ->","completion":" volume down\n"}
+{"prompt":"lower the volume a little ->","completion":" volume down\n"}
+{"prompt":"reduce the audio level ->","completion":" volume down\n"}
+{"prompt":"make it less loud please ->","completion":" volume down\n"}
+{"prompt":"lower the volume by half ->","completion":" volume down\n"}
+{"prompt":"decrease the sound level ->","completion":" volume down\n"}
+{"prompt":"turn down the audio level ->","completion":" volume down\n"}
+{"prompt":"reduce the volume by 50% ->","completion":" volume down 50\n"}
+{"prompt":"quiet ->","completion":" pause\n"}
+{"prompt":"wait ->","completion":" pause\n"}
+{"prompt":"hold on for a minute ->","completion":" pause\n"}
+{"prompt":"Turn that shit off ->","completion":" pause\n"}
+{"prompt":"can you please pause the music? ->","completion":" pause\n"}
+{"prompt":"I need to take a break ->","completion":" pause\n"}
+{"prompt":"pause the song for a moment ->","completion":" pause\n"}
+{"prompt":"let's stop the music for now ->","completion":" pause\n"}
+{"prompt":"pause the track ->","completion":" pause\n"}
+{"prompt":"put the song on hold ->","completion":" pause\n"}
+{"prompt":"halt the music ->","completion":" pause\n"}
+{"prompt":"I want to pause the playlist ->","completion":" pause\n"}
+{"prompt":"hit the pause button ->","completion":" pause\n"}
+{"prompt":"pause the audio ->","completion":" pause\n"}
+{"prompt":"I need to pause the song ->","completion":" pause\n"}
+{"prompt":"pause the track temporarily ->","completion":" pause\n"}
+{"prompt":"stop the music ->","completion":" pause\n"}
+{"prompt":"freeze the song ->","completion":" pause\n"}
+{"prompt":"put the music on hold ->","completion":" pause\n"}
+{"prompt":"pause the current track ->","completion":" pause\n"}
+{"prompt":"suspend the song ->","completion":" pause\n"}
+{"prompt":"hold up the music ->","completion":" pause\n"}
+{"prompt":"temporarily stop the song ->","completion":" pause\n"}
+{"prompt":"interrupt the music ->","completion":" pause\n"}
+{"prompt":"pause the audio playback ->","completion":" pause\n"}
+{"prompt":"hold the song for a moment ->","completion":" pause\n"}
+{"prompt":"pause the sound ->","completion":" pause\n"}
+{"prompt":"take a break from the music ->","completion":" pause\n"}
+{"prompt":"suspend the audio ->","completion":" pause\n"}
+{"prompt":"stop the track for now ->","completion":" pause\n"}
+{"prompt":"hold off the song ->","completion":" pause\n"}
+{"prompt":"pause the song temporarily ->","completion":" pause\n"}
+{"prompt":"halt the audio ->","completion":" pause\n"}
+{"prompt":"put the track on pause ->","completion":" pause\n"}
+{"prompt":"pause the song briefly ->","completion":" pause\n"}
+{"prompt":"hold the music briefly ->","completion":" pause\n"}
+{"prompt":"pause the track momentarily ->","completion":" pause\n"}
+{"prompt":"pause ->","completion":" pause\n"}
+{"prompt":"stop ->","completion":" pause\n"}
+{"prompt":"Finished painting the room ->","completion":" complete task paint\n"}
+{"prompt":"Completed the report ->","completion":" complete task report\n"}
+{"prompt":"Finished organizing my closet ->","completion":" complete task organize\n"}
+{"prompt":"Completed the project proposal ->","completion":" complete task proposal\n"}
+{"prompt":"Finished washing the dishes ->","completion":" complete task dishes\n"}
+{"prompt":"Completed the presentation slides ->","completion":" complete task slides\n"}
+{"prompt":"Finished assembling the furniture ->","completion":" complete task furniture\n"}
+{"prompt":"Completed the laundry ->","completion":" complete task laundry\n"}
+{"prompt":"Finished planting flowers in the garden ->","completion":" complete task garden\n"}
+{"prompt":"Completed the budget spreadsheet ->","completion":" complete task spreadsheet\n"}
+{"prompt":"Finished cleaning the garage ->","completion":" complete task clean\n"}
+{"prompt":"Completed the online course ->","completion":" complete task course\n"}
+{"prompt":"Finished writing the thank you notes ->","completion":" complete task write\n"}
+{"prompt":"Completed the grocery shopping ->","completion":" complete task shop\n"}
+{"prompt":"Finished setting up the new computer ->","completion":" complete task computer setup\n"}
+{"prompt":"Completed the home renovation project ->","completion":" complete task renovate\n"}
+{"prompt":"Finished packing for the trip ->","completion":" complete task pack\n"}
+{"prompt":"Completed the workout routine ->","completion":" complete task workout\n"}
+{"prompt":"complete task keyword lawn ->","completion":" complete task lawn\n"}
+{"prompt":"I mowed the lawn ->","completion":" complete task lawn\n"}
+{"prompt":"I finished mowing the lawn ->","completion":" complete task lawn\n"}
+{"prompt":"Mark 'lawn' as done ->","completion":" complete task lawn\n"}
+{"prompt":"Checked off the task for lawn ->","completion":" complete task lawn\n"}
+{"prompt":"Completed the task of mowing the lawn ->","completion":" complete task lawn\n"}
+{"prompt":"Finished the lawn chore ->","completion":" complete task lawn\n"}
+{"prompt":"Ticked off 'lawn' from my to-do list ->","completion":" complete task lawn\n"}
+{"prompt":"Task 'lawn' completed ->","completion":" complete task lawn\n"}
+{"prompt":"Set 'lawn' as done ->","completion":" complete task lawn\n"}
+{"prompt":"Finished mowing the lawn ->","completion":" complete task lawn\n"}
+{"prompt":"Checked 'lawn' off my task list ->","completion":" complete task lawn\n"}
+{"prompt":"Marked 'lawn' as completed ->","completion":" complete task lawn\n"}
+{"prompt":"Completed the task for lawn maintenance ->","completion":" complete task lawn\n"}
+{"prompt":"Finished mowing the grass ->","completion":" complete task lawn\n"}
+{"prompt":"Checked off 'lawn' from my checklist ->","completion":" complete task lawn\n"}
+{"prompt":"Task 'lawn' done ->","completion":" complete task lawn\n"}
+{"prompt":"Completed mowing the lawn ->","completion":" complete task lawn\n"}
+{"prompt":"I finished painting the room ->","completion":" complete task painting\n"}
+{"prompt":"I completed the report ->","completion":" complete task report\n"}
+{"prompt":"I finished organizing my closet ->","completion":" complete task organize\n"}
+{"prompt":"I completed the project proposal ->","completion":" complete task proposal\n"}
+{"prompt":"I finished washing the dishes ->","completion":" complete task dishes\n"}
+{"prompt":"I completed the presentation slides ->","completion":" complete task slides\n"}
+{"prompt":"I finished assembling the furniture ->","completion":" complete task furniture\n"}
+{"prompt":"I completed the laundry ->","completion":" complete task laundry\n"}
+{"prompt":"I finished planting flowers in the garden ->","completion":" complete task garden\n"}
+{"prompt":"I completed the budget spreadsheet ->","completion":" complete task spreadsheet\n"}
+{"prompt":"I finished cleaning the garage ->","completion":" complete task clean\n"}
+{"prompt":"I completed the online course ->","completion":" complete task course\n"}
+{"prompt":"I finished writing the thank you notes ->","completion":" complete task write\n"}
+{"prompt":"I completed the grocery shopping ->","completion":" complete task shop\n"}
+{"prompt":"I finished setting up the new computer ->","completion":" complete task computer setup\n"}
+{"prompt":"I completed the home renovation project ->","completion":" complete task renovate\n"}
+{"prompt":"I finished packing for the trip ->","completion":" complete task pack\n"}
+{"prompt":"I completed the workout routine ->","completion":" complete task workout\n"}

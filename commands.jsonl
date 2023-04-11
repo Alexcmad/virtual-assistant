@@ -1,0 +1,770 @@
+{"Prompt": "Play a song from my favorites playlist ->", "Completion": "play favorites"}
+{"Prompt": "Play some upbeat music for my workout ->", "Completion": "play workout playlist"}
+{"Prompt": "Play my most played songs ->", "Completion": "play most played"}
+{"Prompt": "Play some relaxing jazz music ->", "Completion": "play jazz playlist"}
+{"Prompt": "Play the latest hits from the 90s ->", "Completion": "play 90s hits"}
+{"Prompt": "Play some classical music for studying ->", "Completion": "play classical playlist for studying"}
+{"Prompt": "Play some reggae music for a beach party ->", "Completion": "play reggae playlist for beach party"}
+{"Prompt": "Play my liked songs ->", "Completion": "play liked songs"}
+{"Prompt": "Play a random song from my library ->", "Completion": "play random song"}
+{"Prompt": "Play some country music for a road trip ->", "Completion": "play country playlist for road trip"}
+{"Prompt": "Play some indie rock music for a chill session ->", "Completion": "play indie rock playlist for chill session"}
+{"Prompt": "Play my discover weekly playlist ->", "Completion": "play discover weekly"}
+{"Prompt": "Play some old school hip hop ->", "Completion": "play old school hip hop"}
+{"Prompt": "Play some EDM tracks for a party ->", "Completion": "play EDM playlist for party"}
+{"Prompt": "Play my favorite movie soundtracks ->", "Completion": "play favorite movie soundtracks"}
+{"Prompt": "Play some Latin music for a dance party ->", "Completion": "play Latin playlist for dance party"}
+{"Prompt": "Play some acoustic guitar music for a cozy evening ->", "Completion": "play acoustic guitar playlist for cozy evening"}
+{"Prompt": "Play some top charting pop songs ->", "Completion": "play top pop songs"}
+{"Prompt": "Play some motivational songs for a workout session ->", "Completion": "play motivational playlist for workout"}
+{"Prompt": "Play some R&B and soul music for a romantic dinner ->", "Completion": "play R&B and soul playlist for romantic dinner"}
+{"Prompt": "Play some ambient electronic music for relaxation ->", "Completion": "play ambient electronic playlist for relaxation"}
+{"Prompt": "Play some Bollywood songs for a dance-off ->", "Completion": "play Bollywood playlist for dance-off"}
+{"Prompt": "Play some folk music for a bonfire night ->", "Completion": "play folk playlist for bonfire night"}
+{"Prompt": "Play some 80s rock ballads for a nostalgic trip ->", "Completion": "play 80s rock ballads playlist for nostalgic trip"}
+{"Prompt": "Play some reggaeton music for a summer pool party ->", "Completion": "play reggaeton playlist for summer pool party"}
+{"Prompt": "Play some instrumental jazz for a classy cocktail party ->", "Completion": "play instrumental jazz playlist for classy cocktail party"}
+{"Prompt": "Play some alternative rock music for a road trip ->", "Completion": "play alternative rock playlist for road trip"}
+{"Prompt": "Play some chillstep tracks for a relaxing evening ->", "Completion": "play chillstep playlist for relaxing evening"}
+{"Prompt": "Play some African music for a cultural celebration ->", "Completion": "play African playlist for cultural celebration"}
+{"Prompt": "Put on some hip-hop jams for a chill sesh ->", "Completion": "play hip-hop playlist for chill session"}
+{"Prompt": "Feelin' the groove, play some funky beats ->", "Completion": "play funky beats playlist"}
+{"Prompt": "Blast some bangers for a lit party vibe ->", "Completion": "play bangers playlist for party vibes"}
+{"Prompt": "In the mood for some sick EDM tracks ->", "Completion": "play EDM playlist with sick tracks"}
+{"Prompt": "Craving some mellow vibes, play some acoustic tunes ->", "Completion": "play acoustic playlist for mellow vibes"}
+{"Prompt": "Turn up the volume and play some fire trap beats ->", "Completion": "play trap playlist with fire beats"}
+{"Prompt": "Let's jam out to some indie rock jams ->", "Completion": "play indie rock playlist for jamming out"}
+{"Prompt": "Need some groovy reggaeton to get the party started ->", "Completion": "play reggaeton playlist for party vibes"}
+{"Prompt": "In the mood for some old-school classics, play some throwback hits ->", "Completion": "play throwback hits playlist for old-school classics"}
+{"Prompt": "Time for some feel-good pop anthems ->", "Completion": "play pop playlist with feel-good anthems"}
+{"Prompt": "Play some chill vibes for a cozy night in ->", "Completion": "play chill vibes playlist for cozy night"}
+{"Prompt": "Want some vibes to match the beach scene, play some tropical tunes ->", "Completion": "play tropical playlist for beach vibes"}
+{"Prompt": "I'm feeling the reggae vibes, play some irie tunes ->", "Completion": "play reggae playlist with irie tunes"}
+{"Prompt": "Crack open a cold one and play some country tunes ->", "Completion": "play country playlist for laid-back vibes"}
+{"Prompt": "okay keep playing the music ->", "Completion": "resume"}
+{"Prompt": "continue playing ->", "Completion": "resume"}
+{"Prompt": "you can start again ->", "Completion": "resume"}
+{"Prompt": "keep it going ->", "Completion": "resume"}
+{"Prompt": "carry on with the song ->", "Completion": "resume"}
+{"Prompt": "resume the music ->", "Completion": "resume"}
+{"Prompt": "go ahead and play ->", "Completion": "resume"}
+{"Prompt": "keep the music playing ->", "Completion": "resume"}
+{"Prompt": "resume the playlist ->", "Completion": "resume"}
+{"Prompt": "continue with the track ->", "Completion": "resume"}
+{"Prompt": "start playing again ->", "Completion": "resume"}
+{"Prompt": "let the music continue ->", "Completion": "resume"}
+{"Prompt": "resume the song ->", "Completion": "resume"}
+{"Prompt": "unpause the music ->", "Completion": "resume"}
+{"Prompt": "carry on with the playlist ->", "Completion": "resume"}
+{"Prompt": "keep the track going ->", "Completion": "resume"}
+{"Prompt": "resume the audio ->", "Completion": "resume"}
+{"Prompt": "play from where it stopped ->", "Completion": "resume"}
+{"Prompt": "continue the audio ->", "Completion": "resume"}
+{"Prompt": "start playing from where it paused ->", "Completion": "resume"}
+{"Prompt": "resume the playback ->", "Completion": "resume"}
+{"Prompt": "continue the song ->", "Completion": "resume"}
+{"Prompt": "unpause ->", "Completion": "resume"}
+{"Prompt": "restart the music ->", "Completion": "resume"}
+{"Prompt": "play on ->", "Completion": "resume"}
+{"Prompt": "continue from where it left off ->", "Completion": "resume"}
+{"Prompt": "resume the track ->", "Completion": "resume"}
+{"Prompt": "keep the song going ->", "Completion": "resume"}
+{"Prompt": "start again ->", "Completion": "resume"}
+{"Prompt": "resume playback ->", "Completion": "resume"}
+{"Prompt": "continue the playlist ->", "Completion": "resume"}
+{"Prompt": "play from where it paused ->", "Completion": "resume"}
+{"Prompt": "resume the audio playback ->", "Completion": "resume"}
+{"Prompt": "continue the track ->", "Completion": "resume"}
+{"Prompt": "restart the song ->", "Completion": "resume"}
+{"Prompt": "resume the music playback ->", "Completion": "resume"}
+{"Prompt": "keep playing from where it stopped ->", "Completion": "resume"}
+{"Prompt": "continue the audio playback ->", "Completion": "resume"}
+{"Prompt": "play on from where it paused ->", "Completion": "resume"}
+{"Prompt": "resume the playlist playback ->", "Completion": "resume"}
+{"Prompt": "carry on from where it left off ->", "Completion": "resume"}
+{"Prompt": "start playing again from where it stopped ->", "Completion": "resume"}
+{"Prompt": "resume the playback from where it paused ->", "Completion": "resume"}
+{"Prompt": "continue the song from where it left off ->", "Completion": "resume"}
+{"Prompt": "unpause the playback ->", "Completion": "resume"}
+{"Prompt": "Add the task 'Send email to colleagues' ->", "Completion": "add task send email to colleagues"}
+{"Prompt": "Need to remember to pick up groceries ->", "Completion": "add task pick up groceries"}
+{"Prompt": "I should schedule a dentist appointment ->", "Completion": "add task schedule dentist appointment"}
+{"Prompt": "Gotta pay the bills ->", "Completion": "add task pay the bills"}
+{"Prompt": "Don't forget to call mom ->", "Completion": "add task call mom"}
+{"Prompt": "I need to book a flight for my vacation ->", "Completion": "add task book flight for vacation"}
+{"Prompt": "Time to clean the garage ->", "Completion": "add task clean garage"}
+{"Prompt": "I have to submit my report by tomorrow ->", "Completion": "add task submit report by tomorrow"}
+{"Prompt": "I should water the plants in the evening ->", "Completion": "add task water plants in evening"}
+{"Prompt": "I need to update my resume ->", "Completion": "add task update resume"}
+{"Prompt": "Gotta prepare for the upcoming meeting ->", "Completion": "add task prepare for meeting"}
+{"Prompt": "I need to fix the leaky faucet ->", "Completion": "add task fix leaky faucet"}
+{"Prompt": "Don't forget to walk the dog in the morning ->", "Completion": "add task walk dog in morning"}
+{"Prompt": "Time to organize my bookshelf ->", "Completion": "add task organize bookshelf"}
+{"Prompt": "I should start exercising regularly ->", "Completion": "add task start exercising regularly"}
+{"Prompt": "I need to buy groceries for the week ->", "Completion": "add task buy groceries for the week"}
+{"Prompt": "I should make a dentist appointment for a check-up ->", "Completion": "add task make dentist appointment for check-up"}
+{"Prompt": "I have to submit my taxes by the end of the month ->", "Completion": "add task submit taxes by end of month"}
+{"Prompt": "Don't forget to call the insurance company to update policy ->", "Completion": "add task call insurance company to update policy"}
+{"Prompt": "I need to schedule a car maintenance appointment ->", "Completion": "add task schedule car maintenance appointment"}
+{"Prompt": "Time to clean out the refrigerator and pantry ->", "Completion": "add task clean out refrigerator and pantry"}
+{"Prompt": "I should create a budget for next month ->", "Completion": "add task create budget for next month"}
+{"Prompt": "I have to send a birthday gift to my friend ->", "Completion": "add task send birthday gift to friend"}
+{"Prompt": "Don't forget to renew my gym membership ->", "Completion": "add task renew gym membership"}
+{"Prompt": "I need to update my passwords for online accounts ->", "Completion": "add task update passwords for online accounts"}
+{"Prompt": "Time to schedule a haircut appointment ->", "Completion": "add task schedule haircut appointment"}
+{"Prompt": "I should start meal planning for the week ->", "Completion": "add task start meal planning for week"}
+{"Prompt": "I have to send out invitations for my upcoming party ->", "Completion": "add task send out invitations for party"}
+{"Prompt": "Don't forget to pay the credit card bill by the due date ->", "Completion": "add task pay credit card bill by due date"}
+{"Prompt": "I need to declutter and organize my closet ->", "Completion": "add task declutter and organize closet"}
+{"Prompt": "view task piano ->", "Completion": "view task piano"}
+{"Prompt": "show me the cat task ->", "Completion": "view task cat"}
+{"Prompt": "what was the task about the email ->", "Completion": "view task email"}
+{"Prompt": "can you display the task for groceries ->", "Completion": "view task groceries"}
+{"Prompt": "what's the status of the meeting task? ->", "Completion": "view task meeting"}
+{"Prompt": "pull up the task for laundry ->", "Completion": "view task laundry"}
+{"Prompt": "show me the task related to exercise ->", "Completion": "view task exercise"}
+{"Prompt": "display the task for calling mom ->", "Completion": "view task cal mom"}
+{"Prompt": "what's the information on the task for buying tickets? ->", "Completion": "view task buy tickets"}
+{"Prompt": "check the task for scheduling appointment ->", "Completion": "view task schedule appointment"}
+{"Prompt": "show me the task related to studying ->", "Completion": "view task studying"}
+{"Prompt": "what's the task for fixing the broken shelf? ->", "Completion": "view task fix broken shelf"}
+{"Prompt": "display the task for paying bills ->", "Completion": "view task paying bills"}
+{"Prompt": "what's the status of the task for booking flight tickets? ->", "Completion": "view task book flight tickets"}
+{"Prompt": "pull up the task for submitting the report ->", "Completion": "view task submit report"}
+{"Prompt": "Show me the details of the task for cleaning the garage ->", "Completion": "View task clean garage"}
+{"Prompt": "What are the specifics of the task for scheduling a meeting? ->", "Completion": "View task schedule meeting"}
+{"Prompt": "I need to know the details of the task for preparing dinner ->", "Completion": "View task prepare dinner"}
+{"Prompt": "Can you give me the information about the task for organizing the files? ->", "Completion": "View task organize files"}
+{"Prompt": "Tell me about the task for booking a flight ->", "Completion": "View task book flight"}
+{"Prompt": "I want to see the details of the task for writing a report ->", "Completion": "View task write report"}
+{"Prompt": "What's the information about the task for completing the project? ->", "Completion": "View task complete project"}
+{"Prompt": "I need to view the specifics of the task for sending emails ->", "Completion": "View task send emails"}
+{"Prompt": "Give me the details of the task for shopping groceries ->", "Completion": "View task shop groceries"}
+{"Prompt": "What is the information of the task for updating the website? ->", "Completion": "View task update website"}
+{"Prompt": "I want to know the specifics of the task for booking a hotel ->", "Completion": "View task book hotel"}
+{"Prompt": "Please show me the details of the task for washing the car ->", "Completion": "View task wash car"}
+{"Prompt": "What are the specifics of the task for creating a presentation? ->", "Completion": "View task create presentation"}
+{"Prompt": "I need to view the information about the task for organizing an event ->", "Completion": "View task organize event"}
+{"Prompt": "Tell me about the details of the task for setting up the new system ->", "Completion": "View task set up system"}
+{"Prompt": "What's the information of the task for writing an article? ->", "Completion": "View task write article"}
+{"Prompt": "I want to see the specifics of the task for designing a logo ->", "Completion": "View task design logo"}
+{"Prompt": "Can you give me the details of the task for making a presentation? ->", "Completion": "View task make presentation"}
+{"Prompt": "I need to know the information about the task for conducting research ->", "Completion": "View task conduct research"}
+{"Prompt": "Show me the specifics of the task for creating a budget ->", "Completion": "View task create budget"}
+{"Prompt": "What are the details of the task for organizing a workshop? ->", "Completion": "View task organize workshop"}
+{"Prompt": "I want to view the information about the task for designing a website ->", "Completion": "View task design website"}
+{"Prompt": "Tell me about the specifics of the task for reviewing the proposal ->", "Completion": "View task review proposal"}
+{"Prompt": "Please show me the details of the task for setting up the email account ->", "Completion": "View task set up email account"}
+{"Prompt": "What is the information of the task for conducting interviews? ->", "Completion": "View task conduct interviews"}
+{"Prompt": "I need to see the specifics of the task for creating a marketing plan ->", "Completion": "View task create marketing plan"}
+{"Prompt": "show me my tasks ->", "Completion": "view tasks"}
+{"Prompt": "display my task list ->", "Completion": "view tasks"}
+{"Prompt": "what are my pending tasks? ->", "Completion": "view tasks"}
+{"Prompt": "list all my tasks ->", "Completion": "view tasks"}
+{"Prompt": "can you show me my to-do list? ->", "Completion": "view tasks"}
+{"Prompt": "get me the list of my tasks ->", "Completion": "view tasks"}
+{"Prompt": "I need to see what tasks I have ->", "Completion": "view tasks"}
+{"Prompt": "show me the tasks I need to do ->", "Completion": "view tasks"}
+{"Prompt": "retrieve my pending tasks ->", "Completion": "view tasks"}
+{"Prompt": "what's on my task list? ->", "Completion": "view tasks"}
+{"Prompt": "pull up my tasks ->", "Completion": "view tasks"}
+{"Prompt": "I want to see my task list ->", "Completion": "view tasks"}
+{"Prompt": "fetch my tasks ->", "Completion": "view tasks"}
+{"Prompt": "show me the tasks I haven't completed ->", "Completion": "view tasks"}
+{"Prompt": "what tasks do I have remaining? ->", "Completion": "view tasks"}
+{"Prompt": "list my incomplete tasks ->", "Completion": "view tasks"}
+{"Prompt": "give me an overview of my tasks ->", "Completion": "view tasks"}
+{"Prompt": "what tasks are pending? ->", "Completion": "view tasks"}
+{"Prompt": "show me the tasks I need to finish ->", "Completion": "view tasks"}
+{"Prompt": "display my to-do list ->", "Completion": "view tasks"}
+{"Prompt": "retrieve my task list ->", "Completion": "view tasks"}
+{"Prompt": "what tasks are left to do? ->", "Completion": "view tasks"}
+{"Prompt": "list my tasks to complete ->", "Completion": "view tasks"}
+{"Prompt": "show me my upcoming tasks ->", "Completion": "view tasks"}
+{"Prompt": "display my pending to-dos ->", "Completion": "view tasks"}
+{"Prompt": "what tasks are due this week? ->", "Completion": "view tasks"}
+{"Prompt": "list my tasks for today ->", "Completion": "view tasks"}
+{"Prompt": "retrieve my overdue tasks ->", "Completion": "view tasks"}
+{"Prompt": "show me my high priority tasks ->", "Completion": "view tasks"}
+{"Prompt": "display my tasks by deadline ->", "Completion": "view tasks"}
+{"Prompt": "what tasks are assigned to me? ->", "Completion": "view tasks"}
+{"Prompt": "list my completed tasks ->", "Completion": "view tasks"}
+{"Prompt": "retrieve my archived tasks ->", "Completion": "view tasks"}
+{"Prompt": "show me my tasks for next week ->", "Completion": "view tasks"}
+{"Prompt": "display my tasks by category ->", "Completion": "view tasks"}
+{"Prompt": "what tasks are overdue? ->", "Completion": "view tasks"}
+{"Prompt": "list my tasks by priority ->", "Completion": "view tasks"}
+{"Prompt": "retrieve my tasks with attachments ->", "Completion": "view tasks"}
+{"Prompt": "show me my tasks with due dates ->", "Completion": "view tasks"}
+{"Prompt": "display my tasks by status ->", "Completion": "view tasks"}
+{"Prompt": "what tasks are labeled as important? ->", "Completion": "view tasks"}
+{"Prompt": "list my tasks with notes ->", "Completion": "view tasks"}
+{"Prompt": "start over this song ->", "Completion": "restart"}
+{"Prompt": "restart this track ->", "Completion": "restart"}
+{"Prompt": "go back to the beginning ->", "Completion": "restart"}
+{"Prompt": "begin again ->", "Completion": "restart"}
+{"Prompt": "reset the song ->", "Completion": "restart"}
+{"Prompt": "replay the track ->", "Completion": "restart"}
+{"Prompt": "rewind the music ->", "Completion": "restart"}
+{"Prompt": "back to the start ->", "Completion": "restart"}
+{"Prompt": "restart the current song ->", "Completion": "restart"}
+{"Prompt": "start from the top ->", "Completion": "restart"}
+{"Prompt": "go back to the beginning of the song ->", "Completion": "restart"}
+{"Prompt": "replay from the beginning ->", "Completion": "restart"}
+{"Prompt": "restart this music ->", "Completion": "restart"}
+{"Prompt": "rewind to the beginning ->", "Completion": "restart"}
+{"Prompt": "reset the track ->", "Completion": "restart"}
+{"Prompt": "begin from the start ->", "Completion": "restart"}
+{"Prompt": "replay from the intro ->", "Completion": "restart"}
+{"Prompt": "restart the current track ->", "Completion": "restart"}
+{"Prompt": "go back to the intro ->", "Completion": "restart"}
+{"Prompt": "reset the song to the beginning ->", "Completion": "restart"}
+{"Prompt": "replay the song from the start ->", "Completion": "restart"}
+{"Prompt": "start this track again ->", "Completion": "restart"}
+{"Prompt": "go back to the start of the music ->", "Completion": "restart"}
+{"Prompt": "restart the song from the beginning ->", "Completion": "restart"}
+{"Prompt": "rewind to the intro ->", "Completion": "restart"}
+{"Prompt": "reset the music ->", "Completion": "restart"}
+{"Prompt": "begin the track again ->", "Completion": "restart"}
+{"Prompt": "restart the current music ->", "Completion": "restart"}
+{"Prompt": "replay from the start of the song ->", "Completion": "restart"}
+{"Prompt": "restart this song from the beginning ->", "Completion": "restart"}
+{"Prompt": "start the track over ->", "Completion": "restart"}
+{"Prompt": "rewind the song ->", "Completion": "restart"}
+{"Prompt": "reset the track to the start ->", "Completion": "restart"}
+{"Prompt": "delete all tasks ->", "Completion": "clear tasks"}
+{"Prompt": "clear my task list please ->", "Completion": "clear tasks"}
+{"Prompt": "remove all tasks from the list ->", "Completion": "clear tasks"}
+{"Prompt": "erase all tasks ->", "Completion": "clear tasks"}
+{"Prompt": "start with a clean slate ->", "Completion": "clear tasks"}
+{"Prompt": "wipe out all the tasks ->", "Completion": "clear tasks"}
+{"Prompt": "remove all pending tasks ->", "Completion": "clear tasks"}
+{"Prompt": "clean up the task list ->", "Completion": "clear tasks"}
+{"Prompt": "delete all incomplete tasks ->", "Completion": "clear tasks"}
+{"Prompt": "empty the task list ->", "Completion": "clear tasks"}
+{"Prompt": "get rid of all tasks ->", "Completion": "clear tasks"}
+{"Prompt": "clear all tasks from the list ->", "Completion": "clear tasks"}
+{"Prompt": "reset the task list ->", "Completion": "clear tasks"}
+{"Prompt": "remove all tasks from the list ->", "Completion": "clear tasks"}
+{"Prompt": "delete all tasks in the list ->", "Completion": "clear tasks"}
+{"Prompt": "start fresh with no tasks ->", "Completion": "clear tasks"}
+{"Prompt": "clear all pending tasks ->", "Completion": "clear tasks"}
+{"Prompt": "remove all tasks from memory ->", "Completion": "clear tasks"}
+{"Prompt": "wipe the task list clean ->", "Completion": "clear tasks"}
+{"Prompt": "erase all pending tasks ->", "Completion": "clear tasks"}
+{"Prompt": "clean the task list ->", "Completion": "clear tasks"}
+{"Prompt": "delete all tasks from memory ->", "Completion": "clear tasks"}
+{"Prompt": "remove all tasks from the list ->", "Completion": "clear tasks"}
+{"Prompt": "reset the task list completely ->", "Completion": "clear tasks"}
+{"Prompt": "clear all tasks and start over ->", "Completion": "clear tasks"}
+{"Prompt": "remove all tasks and reset ->", "Completion": "clear tasks"}
+{"Prompt": "empty the entire task list ->", "Completion": "clear tasks"}
+{"Prompt": "wipe all tasks from the list ->", "Completion": "clear tasks"}
+{"Prompt": "erase all tasks and reset ->", "Completion": "clear tasks"}
+{"Prompt": "clear all tasks and reset list ->", "Completion": "clear tasks"}
+{"Prompt": "delete all tasks and reset ->", "Completion": "clear tasks"}
+{"Prompt": "start with a blank task list ->", "Completion": "clear tasks"}
+{"Prompt": "remove all tasks and start fresh ->", "Completion": "clear tasks"}
+{"Prompt": "delete all tasks and start over ->", "Completion": "clear tasks"}
+{"Prompt": "wipe out all tasks and reset ->", "Completion": "clear tasks"}
+{"Prompt": "erase all tasks and start fresh ->", "Completion": "clear tasks"}
+{"Prompt": "clean up the entire task list ->", "Completion": "clear tasks"}
+{"Prompt": "remove all tasks and wipe clean ->", "Completion": "clear tasks"}
+{"Prompt": "delete all tasks and wipe out ->", "Completion": "clear tasks"}
+{"Prompt": "reset the task list and clear ->", "Completion": "clear tasks"}
+{"Prompt": "empty the task list and start fresh ->", "Completion": "clear tasks"}
+{"Prompt": "clear all tasks and reset list ->", "Completion": "clear tasks"}
+{"Prompt": "open Google Chrome please ->", "Completion": "open Google Chrome"}
+{"Prompt": "open Facebook for me ->", "Completion": "open Facebook"}
+{"Prompt": "can you open YouTube ->", "Completion": "open YouTube"}
+{"Prompt": "open Spotify ->", "Completion": "open Spotify"}
+{"Prompt": "please open Microsoft Word ->", "Completion": "open Microsoft Word"}
+{"Prompt": "open Gmail for me ->", "Completion": "open Gmail"}
+{"Prompt": "can you open Instagram ->", "Completion": "open Instagram"}
+{"Prompt": "open Netflix ->", "Completion": "open Netflix"}
+{"Prompt": "please open Amazon ->", "Completion": "open Amazon"}
+{"Prompt": "open Twitter for me ->", "Completion": "open Twitter"}
+{"Prompt": "can you open WhatsApp ->", "Completion": "open WhatsApp"}
+{"Prompt": "open Google Maps ->", "Completion": "open Google Maps"}
+{"Prompt": "please open Microsoft Excel ->", "Completion": "open Microsoft Excel"}
+{"Prompt": "open Pinterest for me ->", "Completion": "open Pinterest"}
+{"Prompt": "can you open LinkedIn ->", "Completion": "open LinkedIn"}
+{"Prompt": "open Amazon Prime Video ->", "Completion": "open Amazon Prime Video"}
+{"Prompt": "please open Google Photos ->", "Completion": "open Google Photos"}
+{"Prompt": "open Dropbox for me ->", "Completion": "open Dropbox"}
+{"Prompt": "can you open Zoom ->", "Completion": "open Zoom"}
+{"Prompt": "open Google Drive ->", "Completion": "open Google Drive"}
+{"Prompt": "please open Slack ->", "Completion": "open Slack"}
+{"Prompt": "can you open Microsoft PowerPoint ->", "Completion": "open Microsoft PowerPoint"}
+{"Prompt": "open Instagram ->", "Completion": "open Instagram"}
+{"Prompt": "please open Trello ->", "Completion": "open Trello"}
+{"Prompt": "can you open Google Calendar ->", "Completion": "open Google Calendar"}
+{"Prompt": "open Adobe Photoshop ->", "Completion": "open Adobe Photoshop"}
+{"Prompt": "please open Evernote ->", "Completion": "open Evernote"}
+{"Prompt": "can you open Google Translate ->", "Completion": "open Google Translate"}
+{"Prompt": "open Microsoft Outlook ->", "Completion": "open Microsoft Outlook"}
+{"Prompt": "please open Zoom ->", "Completion": "open Zoom"}
+{"Prompt": "can you open Google Docs ->", "Completion": "open Google Docs"}
+{"Prompt": "open Notepad ->", "Completion": "open Notepad"}
+{"Prompt": "please open Google Sheets ->", "Completion": "open Google Sheets"}
+{"Prompt": "can you open VLC Media Player ->", "Completion": "open VLC Media Player"}
+{"Prompt": "open Photoshop ->", "Completion": "open Photoshop"}
+{"Prompt": "please open Microsoft Teams ->", "Completion": "open Microsoft Teams"}
+{"Prompt": "can you open Google Chrome DevTools ->", "Completion": "open Google Chrome DevTools"}
+{"Prompt": "open Microsoft OneNote ->", "Completion": "open Microsoft OneNote"}
+{"Prompt": "close Google Chrome ->", "Completion": "close Google Chrome"}
+{"Prompt": "please close Microsoft Word ->", "Completion": "close Microsoft Word"}
+{"Prompt": "can you close Spotify ->", "Completion": "close Spotify"}
+{"Prompt": "close Photoshop ->", "Completion": "close Photoshop"}
+{"Prompt": "please close Excel ->", "Completion": "close Excel"}
+{"Prompt": "can you close Slack ->", "Completion": "close Slack"}
+{"Prompt": "close PowerPoint ->", "Completion": "close PowerPoint"}
+{"Prompt": "please close Adobe Acrobat ->", "Completion": "close Adobe Acrobat"}
+{"Prompt": "can you close Outlook ->", "Completion": "close Outlook"}
+{"Prompt": "close Trello ->", "Completion": "close Trello"}
+{"Prompt": "please close Zoom ->", "Completion": "close Zoom"}
+{"Prompt": "can you close Google Docs ->", "Completion": "close Google Docs"}
+{"Prompt": "close Google Sheets ->", "Completion": "close Google Sheets"}
+{"Prompt": "please close VLC Media Player ->", "Completion": "close VLC Media Player"}
+{"Prompt": "can you close Google Calendar ->", "Completion": "close Google Calendar"}
+{"Prompt": "close Notepad ->", "Completion": "close Notepad"}
+{"Prompt": "please close Evernote ->", "Completion": "close Evernote"}
+{"Prompt": "can you close Microsoft Teams ->", "Completion": "close Microsoft Teams"}
+{"Prompt": "close Chrome DevTools ->", "Completion": "close Chrome DevTools"}
+{"Prompt": "please close Microsoft OneNote ->", "Completion": "close Microsoft OneNote"}
+{"Prompt": "can you close Firefox ->", "Completion": "close Firefox"}
+{"Prompt": "close Safari ->", "Completion": "close Safari"}
+{"Prompt": "please close File Explorer ->", "Completion": "close File Explorer"}
+{"Prompt": "can you close Dropbox ->", "Completion": "close Dropbox"}
+{"Prompt": "close iTunes ->", "Completion": "close iTunes"}
+{"Prompt": "please close Google Chrome Incognito Window ->", "Completion": "close Google Chrome Incognito Window"}
+{"Prompt": "can you close Microsoft Edge ->", "Completion": "close Microsoft Edge"}
+{"Prompt": "close Windows Media Player ->", "Completion": "close Windows Media Player"}
+{"Prompt": "please close Adobe Photoshop Lightroom ->", "Completion": "close Adobe Photoshop Lightroom"}
+{"Prompt": "can you close QuickTime Player ->", "Completion": "close QuickTime Player"}
+{"Prompt": "close Microsoft Excel Workbook ->", "Completion": "close Microsoft Excel Workbook"}
+{"Prompt": "please close Microsoft Word Document ->", "Completion": "close Microsoft Word Document"}
+{"Prompt": "can you close PowerPoint Presentation ->", "Completion": "close PowerPoint Presentation"}
+{"Prompt": "close Google Sheets Spreadsheet ->", "Completion": "close Google Sheets Spreadsheet"}
+{"Prompt": "please close Microsoft PowerPoint Presentation ->", "Completion": "close Microsoft PowerPoint Presentation"}
+{"Prompt": "can you close Google Docs Document ->", "Completion": "close Google Docs Document"}
+{"Prompt": "close Adobe Acrobat PDF ->", "Completion": "close Adobe Acrobat PDF"}
+{"Prompt": "please close VLC Media Player Playlist ->", "Completion": "close VLC Media Player Playlist"}
+{"Prompt": "can you close Google Calendar Event ->", "Completion": "close Google Calendar Event"}
+{"Prompt": "close Microsoft Teams Meeting ->", "Completion": "close Microsoft Teams Meeting"}
+{"Prompt": "next song ->", "Completion": "next"}
+{"Prompt": "skip ->", "Completion": "next"}
+{"Prompt": "I don't want to listen to this right now ->", "Completion": "next"}
+{"Prompt": "can you please play the next song ->", "Completion": "next"}
+{"Prompt": "skip to the next track ->", "Completion": "next"}
+{"Prompt": "change to the next song ->", "Completion": "next"}
+{"Prompt": "move on to the next track ->", "Completion": "next"}
+{"Prompt": "play the next song in the playlist ->", "Completion": "next"}
+{"Prompt": "skip this one ->", "Completion": "next"}
+{"Prompt": "move forward to the next track ->", "Completion": "next"}
+{"Prompt": "change to the next content ->", "Completion": "next"}
+{"Prompt": "skip to the next item ->", "Completion": "next"}
+{"Prompt": "move to the next song ->", "Completion": "next"}
+{"Prompt": "play the next item ->", "Completion": "next"}
+{"Prompt": "skip to the next song please ->", "Completion": "next"}
+{"Prompt": "move on to the next song in the playlist ->", "Completion": "next"}
+{"Prompt": "next track please ->", "Completion": "next"}
+{"Prompt": "can you play the next song for me ->", "Completion": "next"}
+{"Prompt": "skip to the next song in the queue ->", "Completion": "next"}
+{"Prompt": "change to the next song in the playlist ->", "Completion": "next"}
+{"Prompt": "move forward to the next song ->", "Completion": "next"}
+{"Prompt": "next song on the list ->", "Completion": "next"}
+{"Prompt": "skip this track ->", "Completion": "next"}
+{"Prompt": "move on to the next content ->", "Completion": "next"}
+{"Prompt": "change to the next track in the playlist ->", "Completion": "next"}
+{"Prompt": "skip to the next item in the queue ->", "Completion": "next"}
+{"Prompt": "move to the next song please ->", "Completion": "next"}
+{"Prompt": "play the next item in the playlist ->", "Completion": "next"}
+{"Prompt": "skip to the next song in the playlist now ->", "Completion": "next"}
+{"Prompt": "move on to the next song in the queue ->", "Completion": "next"}
+{"Prompt": "change to the next content in the playlist ->", "Completion": "next"}
+{"Prompt": "skip to the next track please ->", "Completion": "next"}
+{"Prompt": "move forward to the next song in the playlist ->", "Completion": "next"}
+{"Prompt": "next track in the queue ->", "Completion": "next"}
+{"Prompt": "skip this song ->", "Completion": "next"}
+{"Prompt": "move on to the next item in the playlist ->", "Completion": "next"}
+{"Prompt": "change to the next song in the queue ->", "Completion": "next"}
+{"Prompt": "skip to the next song in the queue now ->", "Completion": "next"}
+{"Prompt": "move to the next song in the queue please ->", "Completion": "next"}
+{"Prompt": "play the next item in the queue ->", "Completion": "next"}
+{"Prompt": "skip to the next song in the queue immediately ->", "Completion": "next"}
+{"Prompt": "next song ->", "Completion": "next"}
+{"Prompt": "skip ->", "Completion": "next"}
+{"Prompt": "I don't want to listen to this right now ->", "Completion": "next"}
+{"Prompt": "can you please play the next song ->", "Completion": "next"}
+{"Prompt": "skip to the next track ->", "Completion": "next"}
+{"Prompt": "change to the next song ->", "Completion": "next"}
+{"Prompt": "move on to the next track ->", "Completion": "next"}
+{"Prompt": "play the next song in the playlist ->", "Completion": "next"}
+{"Prompt": "skip this one ->", "Completion": "next"}
+{"Prompt": "move forward to the next track ->", "Completion": "next"}
+{"Prompt": "change to the next content ->", "Completion": "next"}
+{"Prompt": "skip to the next item ->", "Completion": "next"}
+{"Prompt": "move to the next song ->", "Completion": "next"}
+{"Prompt": "play the next item ->", "Completion": "next"}
+{"Prompt": "skip to the next song please ->", "Completion": "next"}
+{"Prompt": "move on to the next song in the playlist ->", "Completion": "next"}
+{"Prompt": "next track please ->", "Completion": "next"}
+{"Prompt": "can you play the next song for me ->", "Completion": "next"}
+{"Prompt": "skip to the next song in the queue ->", "Completion": "next"}
+{"Prompt": "change to the next song in the playlist ->", "Completion": "next"}
+{"Prompt": "move forward to the next song ->", "Completion": "next"}
+{"Prompt": "next song on the list ->", "Completion": "next"}
+{"Prompt": "skip this track ->", "Completion": "next"}
+{"Prompt": "move on to the next content ->", "Completion": "next"}
+{"Prompt": "change to the next track in the playlist ->", "Completion": "next"}
+{"Prompt": "skip to the next item in the queue ->", "Completion": "next"}
+{"Prompt": "move to the next song please ->", "Completion": "next"}
+{"Prompt": "play the next item in the playlist ->", "Completion": "next"}
+{"Prompt": "skip to the next song in the playlist now ->", "Completion": "next"}
+{"Prompt": "move on to the next song in the queue ->", "Completion": "next"}
+{"Prompt": "change to the next content in the playlist ->", "Completion": "next"}
+{"Prompt": "skip to the next track please ->", "Completion": "next"}
+{"Prompt": "move forward to the next song in the playlist ->", "Completion": "next"}
+{"Prompt": "next track in the queue ->", "Completion": "next"}
+{"Prompt": "skip this song ->", "Completion": "next"}
+{"Prompt": "move on to the next item in the playlist ->", "Completion": "next"}
+{"Prompt": "change to the next song in the queue ->", "Completion": "next"}
+{"Prompt": "skip to the next song in the queue now ->", "Completion": "next"}
+{"Prompt": "move to the next song in the queue please ->", "Completion": "next"}
+{"Prompt": "play the next item in the queue ->", "Completion": "next"}
+{"Prompt": "skip to the next song in the queue immediately ->", "Completion": "next"}
+{"Prompt": "previous song ->", "Completion": "previous"}
+{"Prompt": "wait go back ->", "Completion": "previous"}
+{"Prompt": "can you play the previous track? ->", "Completion": "previous"}
+{"Prompt": "I want to hear the previous song again ->", "Completion": "previous"}
+{"Prompt": "skip back to the previous track ->", "Completion": "previous"}
+{"Prompt": "go back one song ->", "Completion": "previous"}
+{"Prompt": "previous track please ->", "Completion": "previous"}
+{"Prompt": "replay the previous song ->", "Completion": "previous"}
+{"Prompt": "I didn't like that, play the previous song ->", "Completion": "previous"}
+{"Prompt": "let's go back to the previous track ->", "Completion": "previous"}
+{"Prompt": "go back to the previous song ->", "Completion": "previous"}
+{"Prompt": "I want to listen to the previous song ->", "Completion": "previous"}
+{"Prompt": "previous song in the queue ->", "Completion": "previous"}
+{"Prompt": "go back to the last track ->", "Completion": "previous"}
+{"Prompt": "previous song, please ->", "Completion": "previous"}
+{"Prompt": "I missed something, play the previous song ->", "Completion": "previous"}
+{"Prompt": "skip to the previous track ->", "Completion": "previous"}
+{"Prompt": "previous song on the playlist ->", "Completion": "previous"}
+{"Prompt": "I want to hear the song before this one ->", "Completion": "previous"}
+{"Prompt": "previous song, thank you ->", "Completion": "previous"}
+{"Prompt": "go back to the previous track, please ->", "Completion": "previous"}
+{"Prompt": "play the song that came before ->", "Completion": "previous"}
+{"Prompt": "replay the previous track ->", "Completion": "previous"}
+{"Prompt": "I want to go back to the previous song ->", "Completion": "previous"}
+{"Prompt": "previous song, rewind ->", "Completion": "previous"}
+{"Prompt": "play the track before this one ->", "Completion": "previous"}
+{"Prompt": "skip back to the previous song ->", "Completion": "previous"}
+{"Prompt": "I didn't like that song, play the previous one ->", "Completion": "previous"}
+{"Prompt": "go back to the song that played before this one ->", "Completion": "previous"}
+{"Prompt": "previous track, please ->", "Completion": "previous"}
+{"Prompt": "play the song that was on before ->", "Completion": "previous"}
+{"Prompt": "replay the track that came before this one ->", "Completion": "previous"}
+{"Prompt": "go back to the previous track in the playlist ->", "Completion": "previous"}
+{"Prompt": "previous song, go back ->", "Completion": "previous"}
+{"Prompt": "I want to listen to the song that played before this ->", "Completion": "previous"}
+{"Prompt": "skip to the previous song, please ->", "Completion": "previous"}
+{"Prompt": "previous track in the queue, please ->", "Completion": "previous"}
+{"Prompt": "go back one song, rewind ->", "Completion": "previous"}
+{"Prompt": "previous song, replay ->", "Completion": "previous"}
+{"Prompt": "I missed something, play the song that came before this ->", "Completion": "previous"}
+{"Prompt": "go back to the previous song in the playlist ->", "Completion": "previous"}
+{"Prompt": "replay the previous song, please ->", "Completion": "previous"}
+{"Prompt": "previous track on repeat ->", "Completion": "previous"}
+{"Prompt": "go back to the previous song, rewind ->", "Completion": "previous"}
+{"Prompt": "play the track before this one, please ->", "Completion": "previous"}
+{"Prompt": "previous song in the queue, rewind ->", "Completion": "previous"}
+{"Prompt": "I want to hear the song that played before this one, please ->", "Completion": "previous"}
+{"Prompt": "skip back to the previous track in the playlist ->", "Completion": "previous"}
+{"Prompt": "previous song, go back, rewind ->", "Completion": "previous"}
+{"Prompt": "play the song that was on before, please ->", "Completion": "previous"}
+{"Prompt": "replay the track that came before this one, rewind ->", "Completion": "previous"}
+{"Prompt": "go back to the previous track in the queue ->", "Completion": "previous"}
+{"Prompt": "previous song, replay, rewind ->", "Completion": "previous"}
+{"Prompt": "I missed something, play the song that came before this, please ->", "Completion": "previous"}
+{"Prompt": "go back to the previous song in the playlist, rewind ->", "Completion": "previous"}
+{"Prompt": "previous track, go back, rewind ->", "Completion": "previous"}
+{"Prompt": "play the previous song again, rewind ->", "Completion": "previous"}
+{"Prompt": "replay the previous track in the queue ->", "Completion": "previous"}
+{"Prompt": "go back to the last song, rewind ->", "Completion": "previous"}
+{"Prompt": "previous song, rewind, replay ->", "Completion": "previous"}
+{"Prompt": "play the song before this one, rewind ->", "Completion": "previous"}
+{"Prompt": "what song is this? ->", "Completion": "now playing"}
+{"Prompt": "can you tell me the name of this song? ->", "Completion": "now playing"}
+{"Prompt": "what's the title of this track? ->", "Completion": "now playing"}
+{"Prompt": "identify this song please ->", "Completion": "now playing"}
+{"Prompt": "I need to know the name of this music ->", "Completion": "now playing"}
+{"Prompt": "song recognition, what's playing? ->", "Completion": "now playing"}
+{"Prompt": "please tell me the current song ->", "Completion": "now playing"}
+{"Prompt": "what's the song playing right now? ->", "Completion": "now playing"}
+{"Prompt": "identify the track that's currently on ->", "Completion": "now playing"}
+{"Prompt": "I want to know the title of this song ->", "Completion": "now playing"}
+{"Prompt": "what's the name of this song playing? ->", "Completion": "now playing"}
+{"Prompt": "song info, what's playing? ->", "Completion": "now playing"}
+{"Prompt": "please give me the title of the current track ->", "Completion": "now playing"}
+{"Prompt": "identify this music for me ->", "Completion": "now playing"}
+{"Prompt": "what's the current song's name? ->", "Completion": "now playing"}
+{"Prompt": "I need to know the title of the current music ->", "Completion": "now playing"}
+{"Prompt": "identify the song that's currently playing ->", "Completion": "now playing"}
+{"Prompt": "what's the name of the song that's playing now? ->", "Completion": "now playing"}
+{"Prompt": "song recognition, what's currently playing? ->", "Completion": "now playing"}
+{"Prompt": "please tell me the title of the current track ->", "Completion": "now playing"}
+{"Prompt": "what's the song playing right now? ->", "Completion": "now playing"}
+{"Prompt": "song info, what's currently playing? ->", "Completion": "now playing"}
+{"Prompt": "please give me the title of the current song ->", "Completion": "now playing"}
+{"Prompt": "identify the music that's currently on ->", "Completion": "now playing"}
+{"Prompt": "what's the name of this song that's playing? ->", "Completion": "now playing"}
+{"Prompt": "song recognition, what's playing currently? ->", "Completion": "now playing"}
+{"Prompt": "please tell me the title of the currently playing track ->", "Completion": "now playing"}
+{"Prompt": "what's the current song's title? ->", "Completion": "now playing"}
+{"Prompt": "identify this track for me ->", "Completion": "now playing"}
+{"Prompt": "what's the name of the music that's currently playing? ->", "Completion": "now playing"}
+{"Prompt": "song info, what's playing now? ->", "Completion": "now playing"}
+{"Prompt": "please give me the title of the currently playing song ->", "Completion": "now playing"}
+{"Prompt": "identify the current song ->", "Completion": "now playing"}
+{"Prompt": "what's the name of this song currently playing? ->", "Completion": "now playing"}
+{"Prompt": "song recognition, what's playing now? ->", "Completion": "now playing"}
+{"Prompt": "What is the capital of France? ->", "Completion": "ask question what is the capital of France"}
+{"Prompt": "How far away is the moon? ->", "Completion": "ask question how far away is the moon"}
+{"Prompt": "Tell me about the history of Rome. ->", "Completion": "ask question tell me about the history of Rome"}
+{"Prompt": "Who won the last World Cup? ->", "Completion": "ask question who won the last World Cup"}
+{"Prompt": "What are the symptoms of COVID-19? ->", "Completion": "ask question what are the symptoms of COVID-19"}
+{"Prompt": "How does photosynthesis work? ->", "Completion": "ask question how does photosynthesis work"}
+{"Prompt": "What is the square root of 64? ->", "Completion": "ask question what is the square root of 64"}
+{"Prompt": "When was the Declaration of Independence signed? ->", "Completion": "ask question when was the Declaration of Independence signed"}
+{"Prompt": "What are the benefits of exercise? ->", "Completion": "ask question what are the benefits of exercise"}
+{"Prompt": "How do you bake a chocolate cake? ->", "Completion": "ask question how do you bake a chocolate cake"}
+{"Prompt": "What is the meaning of life? ->", "Completion": "ask question what is the meaning of life"}
+{"Prompt": "Who is the current President of the United States? ->", "Completion": "ask question who is the current President of the United States"}
+{"Prompt": "What is the formula for calculating area of a circle? ->", "Completion": "ask question what is the formula for calculating area of a circle"}
+{"Prompt": "How does gravity work? ->", "Completion": "ask question how does gravity work"}
+{"Prompt": "What is the fastest land animal? ->", "Completion": "ask question what is the fastest land animal"}
+{"Prompt": "Who painted the Mona Lisa? ->", "Completion": "ask question who painted the Mona Lisa"}
+{"Prompt": "What are the main ingredients in a margherita pizza? ->", "Completion": "ask question what are the main ingredients in a margherita pizza"}
+{"Prompt": "How does a computer mouse work? ->", "Completion": "ask question how does a computer mouse work"}
+{"Prompt": "What is the chemical symbol for gold? ->", "Completion": "ask question what is the chemical symbol for gold"}
+{"Prompt": "What is the significance of the Eiffel Tower? ->", "Completion": "ask question what is the significance of the Eiffel Tower"}
+{"Prompt": "How does the internet work? ->", "Completion": "ask question how does the internet work"}
+{"Prompt": "What is the process of digestion in humans? ->", "Completion": "ask question what is the process of digestion in humans"}
+{"Prompt": "Who wrote the play 'Romeo and Juliet'? ->", "Completion": "ask question who wrote the play 'Romeo and Juliet'"}
+{"Prompt": "What is the capital of Brazil? ->", "Completion": "ask question what is the capital of Brazil"}
+{"Prompt": "How does the human respiratory system work? ->", "Completion": "ask question how does the human respiratory system work"}
+{"Prompt": "What is the concept of supply and demand in economics? ->", "Completion": "ask question what is the concept of supply and demand in economics"}
+{"Prompt": "Who is the author of the Harry Potter book series? ->", "Completion": "ask question who is the author of the Harry Potter book series"}
+{"Prompt": "What is the process of photosynthesis in plants? ->", "Completion": "ask question what is the process of photosynthesis in plants"}
+{"Prompt": "How does the water cycle work? ->", "Completion": "ask question how does the water cycle work"}
+{"Prompt": "What is the theory of relativity proposed by Albert Einstein? ->", "Completion": "ask question what is the theory of relativity proposed by Albert Einstein"}
+{"Prompt": "Who was the first person to step on the moon? ->", "Completion": "ask question who was the first person to step on the moon"}
+{"Prompt": "What is the function of mitochondria in cells? ->", "Completion": "ask question what is the function of mitochondria in cells"}
+{"Prompt": "How does the immune system work? ->", "Completion": "ask question how does the immune system work"}
+{"Prompt": "What are the properties of water? ->", "Completion": "ask question what are the properties of water"}
+{"Prompt": "Who is known as the 'Father of Modern Physics'? ->", "Completion": "ask question who is known as the 'Father of Modern Physics'"}
+{"Prompt": "What is the impact of climate change on the environment? ->", "Completion": "ask question what is the impact of climate change on the environment"}
+{"Prompt": "How does the human nervous system work? ->", "Completion": "ask question how does the human nervous system work"}
+{"Prompt": "What is the concept of natural selection in evolution? ->", "Completion": "ask question what is the concept of natural selection in evolution"}
+{"Prompt": "louder ->", "Completion": "volume up"}
+{"Prompt": "increase the volume ->", "Completion": "volume up"}
+{"Prompt": "turn it up ->", "Completion": "volume up"}
+{"Prompt": "make it louder ->", "Completion": "volume up"}
+{"Prompt": "raise the volume ->", "Completion": "volume up"}
+{"Prompt": "up the volume ->", "Completion": "volume up"}
+{"Prompt": "boost the volume ->", "Completion": "volume up"}
+{"Prompt": "crank up the volume ->", "Completion": "volume up"}
+{"Prompt": "increase volume level ->", "Completion": "volume up"}
+{"Prompt": "turn the volume higher ->", "Completion": "volume up"}
+{"Prompt": "amplify the sound ->", "Completion": "volume up"}
+{"Prompt": "make it louder please ->", "Completion": "volume up"}
+{"Prompt": "turn up the volume a bit ->", "Completion": "volume up"}
+{"Prompt": "raise the sound level ->", "Completion": "volume up"}
+{"Prompt": "adjust the volume higher ->", "Completion": "volume up"}
+{"Prompt": "increase audio volume ->", "Completion": "volume up"}
+{"Prompt": "louder sound ->", "Completion": "volume up"}
+{"Prompt": "turn up the audio ->", "Completion": "volume up"}
+{"Prompt": "make the volume louder ->", "Completion": "volume up"}
+{"Prompt": "raise the audio level ->", "Completion": "volume up"}
+{"Prompt": "increase volume please ->", "Completion": "volume up"}
+{"Prompt": "turn up the sound ->", "Completion": "volume up"}
+{"Prompt": "make it louder now ->", "Completion": "volume up"}
+{"Prompt": "volume increase ->", "Completion": "volume up"}
+{"Prompt": "turn the volume up high ->", "Completion": "volume up"}
+{"Prompt": "louder audio ->", "Completion": "volume up"}
+{"Prompt": "boost the audio ->", "Completion": "volume up"}
+{"Prompt": "volume up all the way ->", "Completion": "volume up"}
+{"Prompt": "crank up the sound ->", "Completion": "volume up"}
+{"Prompt": "raise the volume level ->", "Completion": "volume up"}
+{"Prompt": "increase the sound ->", "Completion": "volume up"}
+{"Prompt": "turn up the volume please ->", "Completion": "volume up"}
+{"Prompt": "make it louder a bit ->", "Completion": "volume up"}
+{"Prompt": "volume up to 11 ->", "Completion": "volume up 11"}
+{"Prompt": "turn it up a notch ->", "Completion": "volume up"}
+{"Prompt": "make the volume higher ->", "Completion": "volume up"}
+{"Prompt": "raise the volume a little ->", "Completion": "volume up"}
+{"Prompt": "increase the audio ->", "Completion": "volume up"}
+{"Prompt": "louder volume setting ->", "Completion": "volume up"}
+{"Prompt": "turn up the sound level ->", "Completion": "volume up"}
+{"Prompt": "raise the volume please ->", "Completion": "volume up"}
+{"Prompt": "volume up to the max ->", "Completion": "volume set 100"}
+{"Prompt": "maximize the volume ->", "Completion": "volume set 100"}
+{"Prompt": "set the volume to 50 ->", "Completion": "volume set 50"}
+{"Prompt": "increase the volume to maximum ->", "Completion": "volume set 100"}
+{"Prompt": "lower the volume to 30 ->", "Completion": "volume set 30"}
+{"Prompt": "set the volume to minimum ->", "Completion": "volume set 0"}
+{"Prompt": "adjust the volume to 80 ->", "Completion": "volume set 80"}
+{"Prompt": "set the volume to 10 ->", "Completion": "volume set 10"}
+{"Prompt": "increase the volume to 70 ->", "Completion": "volume set 70"}
+{"Prompt": "lower the volume to 20 ->", "Completion": "volume set 20"}
+{"Prompt": "set the volume to 90 ->", "Completion": "volume set 90"}
+{"Prompt": "adjust the volume to 40 ->", "Completion": "volume set 40"}
+{"Prompt": "set the volume to 60 ->", "Completion": "volume set 60"}
+{"Prompt": "increase the volume to 100 ->", "Completion": "volume set 100"}
+{"Prompt": "lower the volume to 50 ->", "Completion": "volume set 50"}
+{"Prompt": "set the volume to 75 ->", "Completion": "volume set 75"}
+{"Prompt": "adjust the volume to 25 ->", "Completion": "volume set 25"}
+{"Prompt": "set the volume to 85 ->", "Completion": "volume set 85"}
+{"Prompt": "increase the volume to 95 ->", "Completion": "volume set 95"}
+{"Prompt": "lower the volume to 15 ->", "Completion": "volume set 15"}
+{"Prompt": "set the volume to 55 ->", "Completion": "volume set 55"}
+{"Prompt": "volume down ->", "Completion": "volume down"}
+{"Prompt": "lower the volume ->", "Completion": "volume down"}
+{"Prompt": "reduce the volume ->", "Completion": "volume down"}
+{"Prompt": "make it quieter ->", "Completion": "volume down"}
+{"Prompt": "turn down the volume ->", "Completion": "volume down"}
+{"Prompt": "decrease the volume ->", "Completion": "volume down"}
+{"Prompt": "quiet down ->", "Completion": "volume down"}
+{"Prompt": "less volume ->", "Completion": "volume down"}
+{"Prompt": "lower the sound ->", "Completion": "volume down"}
+{"Prompt": "turn it down ->", "Completion": "volume down"}
+{"Prompt": "reduce the sound ->", "Completion": "volume down"}
+{"Prompt": "make it less loud ->", "Completion": "volume down"}
+{"Prompt": "lower the audio ->", "Completion": "volume down"}
+{"Prompt": "decrease the sound ->", "Completion": "volume down"}
+{"Prompt": "quieter please ->", "Completion": "volume down"}
+{"Prompt": "reduce the noise ->", "Completion": "volume down"}
+{"Prompt": "turn down the audio ->", "Completion": "volume down"}
+{"Prompt": "make it softer ->", "Completion": "volume down"}
+{"Prompt": "lower the volume level ->", "Completion": "volume down"}
+{"Prompt": "reduce the volume level ->", "Completion": "volume down"}
+{"Prompt": "quieter volume ->", "Completion": "volume down"}
+{"Prompt": "turn the volume down ->", "Completion": "volume down"}
+{"Prompt": "lower the volume please ->", "Completion": "volume down"}
+{"Prompt": "decrease the volume level ->", "Completion": "volume down"}
+{"Prompt": "make it less noisy ->", "Completion": "volume down"}
+{"Prompt": "lower the sound level ->", "Completion": "volume down"}
+{"Prompt": "turn down the sound ->", "Completion": "volume down"}
+{"Prompt": "reduce the audio ->", "Completion": "volume down"}
+{"Prompt": "make it quieter please ->", "Completion": "volume down"}
+{"Prompt": "lower the music ->", "Completion": "volume down"}
+{"Prompt": "decrease the audio ->", "Completion": "volume down"}
+{"Prompt": "reduce the volume level please ->", "Completion": "volume down"}
+{"Prompt": "turn down the volume level ->", "Completion": "volume down"}
+{"Prompt": "make it softer please ->", "Completion": "volume down"}
+{"Prompt": "lower the volume a bit ->", "Completion": "volume down"}
+{"Prompt": "reduce the sound level ->", "Completion": "volume down"}
+{"Prompt": "turn the sound down ->", "Completion": "volume down"}
+{"Prompt": "quieter audio ->", "Completion": "volume down"}
+{"Prompt": "lower the volume a little ->", "Completion": "volume down"}
+{"Prompt": "reduce the audio level ->", "Completion": "volume down"}
+{"Prompt": "make it less loud please ->", "Completion": "volume down"}
+{"Prompt": "lower the volume by half ->", "Completion": "volume down"}
+{"Prompt": "decrease the sound level ->", "Completion": "volume down"}
+{"Prompt": "turn down the audio level ->", "Completion": "volume down"}
+{"Prompt": "reduce the volume by 50% ->", "Completion": "volume down 50"}
+{"Prompt": "quiet ->", "Completion": " pause"}
+{"Prompt": "wait ->", "Completion": " pause"}
+{"Prompt": "hold on for a minute ->", "Completion": " pause"}
+{"Prompt": "Turn that shit off ->", "Completion": " pause"}
+{"Prompt": "can you please pause the music? ->", "Completion": " pause"}
+{"Prompt": "I need to take a break ->", "Completion": " pause"}
+{"Prompt": "pause the song for a moment ->", "Completion": " pause"}
+{"Prompt": "let's stop the music for now ->", "Completion": " pause"}
+{"Prompt": "pause the track ->", "Completion": " pause"}
+{"Prompt": "put the song on hold ->", "Completion": " pause"}
+{"Prompt": "halt the music ->", "Completion": " pause"}
+{"Prompt": "I want to pause the playlist ->", "Completion": " pause"}
+{"Prompt": "hit the pause button ->", "Completion": " pause"}
+{"Prompt": "pause the audio ->", "Completion": " pause"}
+{"Prompt": "I need to pause the song ->", "Completion": " pause"}
+{"Prompt": "pause the track temporarily ->", "Completion": " pause"}
+{"Prompt": "stop the music ->", "Completion": " pause"}
+{"Prompt": "freeze the song ->", "Completion": " pause"}
+{"Prompt": "put the music on hold ->", "Completion": " pause"}
+{"Prompt": "pause the current track ->", "Completion": " pause"}
+{"Prompt": "suspend the song ->", "Completion": " pause"}
+{"Prompt": "hold up the music ->", "Completion": " pause"}
+{"Prompt": "temporarily stop the song ->", "Completion": " pause"}
+{"Prompt": "interrupt the music ->", "Completion": " pause"}
+{"Prompt": "pause the audio playback ->", "Completion": " pause"}
+{"Prompt": "hold the song for a moment ->", "Completion": " pause"}
+{"Prompt": "pause the sound ->", "Completion": " pause"}
+{"Prompt": "take a break from the music ->", "Completion": " pause"}
+{"Prompt": "suspend the audio ->", "Completion": " pause"}
+{"Prompt": "stop the track for now ->", "Completion": " pause"}
+{"Prompt": "hold off the song ->", "Completion": " pause"}
+{"Prompt": "pause the song temporarily ->", "Completion": " pause"}
+{"Prompt": "halt the audio ->", "Completion": " pause"}
+{"Prompt": "put the track on pause ->", "Completion": " pause"}
+{"Prompt": "pause the song briefly ->", "Completion": " pause"}
+{"Prompt": "hold the music briefly ->", "Completion": " pause"}
+{"Prompt": "pause the track momentarily ->", "Completion": " pause"}
+{"Prompt": "pause ->", "Completion": " pause"}
+{"Prompt": "stop ->", "Completion": " pause"}
+{"Prompt": "Finished painting the room ->", "Completion": "complete task painting"}
+{"Prompt": "Completed the report ->", "Completion": "complete task report"}
+{"Prompt": "Finished organizing my closet ->", "Completion": "complete task organizing"}
+{"Prompt": "Completed the project proposal ->", "Completion": "complete task proposal"}
+{"Prompt": "Finished washing the dishes ->", "Completion": "complete task dishes"}
+{"Prompt": "Completed the presentation slides ->", "Completion": "complete task slides"}
+{"Prompt": "Finished assembling the furniture ->", "Completion": "complete task furniture"}
+{"Prompt": "Completed the laundry ->", "Completion": "complete task laundry"}
+{"Prompt": "Finished planting flowers in the garden ->", "Completion": "complete task gardening"}
+{"Prompt": "Completed the budget spreadsheet ->", "Completion": "complete task spreadsheet"}
+{"Prompt": "Finished cleaning the garage ->", "Completion": "complete task cleaning"}
+{"Prompt": "Completed the online course ->", "Completion": "complete task course"}
+{"Prompt": "Finished writing the thank you notes ->", "Completion": "complete task writing"}
+{"Prompt": "Completed the grocery shopping ->", "Completion": "complete task shopping"}
+{"Prompt": "Finished setting up the new computer ->", "Completion": "complete task computer setup"}
+{"Prompt": "Completed the home renovation project ->", "Completion": "complete task renovation"}
+{"Prompt": "Finished packing for the trip ->", "Completion": "complete task packing"}
+{"Prompt": "Completed the workout routine ->", "Completion": "complete task workout"}
+{"Prompt": "complete task keyword lawn ->", "Completion": "complete task lawn"}
+{"Prompt": "I mowed the lawn ->", "Completion": "complete task lawn"}
+{"Prompt": "I finished mowing the lawn ->", "Completion": "complete task lawn"}
+{"Prompt": "Mark 'lawn' as done ->", "Completion": "complete task lawn"}
+{"Prompt": "Checked off the task for lawn ->", "Completion": "complete task lawn"}
+{"Prompt": "Completed the task of mowing the lawn ->", "Completion": "complete task lawn"}
+{"Prompt": "Finished the lawn chore ->", "Completion": "complete task lawn"}
+{"Prompt": "Ticked off 'lawn' from my to-do list ->", "Completion": "complete task lawn"}
+{"Prompt": "Task 'lawn' completed ->", "Completion": "complete task lawn"}
+{"Prompt": "Set 'lawn' as done ->", "Completion": "complete task lawn"}
+{"Prompt": "Finished mowing the lawn ->", "Completion": "complete task lawn"}
+{"Prompt": "Checked 'lawn' off my task list ->", "Completion": "complete task lawn"}
+{"Prompt": "Marked 'lawn' as completed ->", "Completion": "complete task lawn"}
+{"Prompt": "Completed the task for lawn maintenance ->", "Completion": "complete task lawn"}
+{"Prompt": "Finished mowing the grass ->", "Completion": "complete task lawn"}
+{"Prompt": "Checked off 'lawn' from my checklist ->", "Completion": "complete task lawn"}
+{"Prompt": "Task 'lawn' done ->", "Completion": "complete task lawn"}
+{"Prompt": "Completed mowing the lawn ->", "Completion": "complete task lawn"}
+{"Prompt": "I finished painting the room ->", "Completion": "complete task painting"}
+{"Prompt": "I completed the report ->", "Completion": "complete task report"}
+{"Prompt": "I finished organizing my closet ->", "Completion": "complete task organizing"}
+{"Prompt": "I completed the project proposal ->", "Completion": "complete task proposal"}
+{"Prompt": "I finished washing the dishes ->", "Completion": "complete task dishes"}
+{"Prompt": "I completed the presentation slides ->", "Completion": "complete task slides"}
+{"Prompt": "I finished assembling the furniture ->", "Completion": "complete task furniture"}
+{"Prompt": "I completed the laundry ->", "Completion": "complete task laundry"}
+{"Prompt": "I finished planting flowers in the garden ->", "Completion": "complete task gardening"}
+{"Prompt": "I completed the budget spreadsheet ->", "Completion": "complete task spreadsheet"}
+{"Prompt": "I finished cleaning the garage ->", "Completion": "complete task cleaning"}
+{"Prompt": "I completed the online course ->", "Completion": "complete task course"}
+{"Prompt": "I finished writing the thank you notes ->", "Completion": "complete task writing"}
+{"Prompt": "I completed the grocery shopping ->", "Completion": "complete task shopping"}
+{"Prompt": "I finished setting up the new computer ->", "Completion": "complete task computer setup"}
+{"Prompt": "I completed the home renovation project ->", "Completion": "complete task renovation"}
+{"Prompt": "I finished packing for the trip ->", "Completion": "complete task packing"}
+{"Prompt": "I completed the workout routine ->", "Completion": "complete task workout"}

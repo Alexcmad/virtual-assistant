@@ -1,6 +1,8 @@
 from assistant import spotifyControls, basic, taskManager, GPT_Engine
 from pprint import pprint
 import pyautogui as pg
+import gtts
+from  playsound import playsound
 
 
 def execute_command(command: str):
@@ -113,7 +115,9 @@ def execute_command(command: str):
 
     elif command.startswith("ask question"):
         question = command.split("ask question")[1].strip()
-        print(GPT_Engine.answer_question(question))
+        ans = GPT_Engine.answer_question(question)
+        print(ans)
+
 
     else:
         return True
