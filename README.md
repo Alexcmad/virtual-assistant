@@ -46,7 +46,7 @@ User has the choice to use either the fine-tuned model or GPT3.5-Turbo.
 - in the above event, conversation history can be manually reset with the command 'reset' or 'thank you' or 'thanks'
 - conversation history automatically resets after a certain amount of commands
 
-#### Fine-tuned GPT3-Davinci (as of today)
+##### Fine-tuned GPT3-Davinci (as of today):
 - uses much less tokens per command
 - however, as a trade off, training the model uses a great deal of tokens. In the future, additional training should only be done when commands get added to save money 
 - no conversation history
