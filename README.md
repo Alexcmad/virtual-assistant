@@ -9,7 +9,7 @@ A virtual assistant powered by GPT-3.5 in python (eventually)(It is now)
 - Sending emails
 - Fetching Emails
 - Writing in txt files
-- General Searching
+- General Searching✅
 - Voice controls✅🛑
 - Voice activation
 - Text to speech
@@ -38,4 +38,20 @@ https://user-images.githubusercontent.com/113714949/230833558-feedf5fa-9baa-4608
 ### Date: 4/11/2023
 
 ![image](https://user-images.githubusercontent.com/113714949/231106839-77290444-a263-4966-ab96-14199509ed47.png)
+User has the choice to use either the fine-tuned model or GPT3.5-Turbo.
+##### GPT3.5-Turbo:
+- uses more tokens per command
+- can be provided with conversation history to allow it to use context clues when interpreting natural language
+- may very occasionally refuse commands or say 'okay,  [carrying out command]' which is not valid command format
+- in the above event, conversation history can be manually reset with the command 'reset' or 'thank you' or 'thanks'
+- conversation history automatically resets after a certain amount of commands
 
+#### Fine-tuned GPT3-Davinci (as of today)
+- uses much less tokens per command
+- however, as a trade off, training the model uses a great deal of tokens. In the future, additional training should only be done when commands get added to save money 
+- no conversation history
+- very concise and only ever gives more than us required of it
+- will not refuse commands, but may misinterpret them if the intention is not clear
+- probably faster but needs a lot of training data to be as accurate as Turbo.
+
+In all I prefer using turbo for the more natural interaction with message history, but in the later stages of this project I may train a really good davinci (or other) model and use it instead for the sake of my wallet. Don't know how training a turbo model would even work but it would be interesting to use if they make that possible.
