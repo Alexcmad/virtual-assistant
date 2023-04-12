@@ -42,19 +42,19 @@ def play(keyword):
         return
     try:
         playlist = get_playlists_by_keyword(keyword)[0]
-        playlist_uri = playlist['uri']
-        playlist_name = playlist['name']
+        playlist_uri = get_playlist_uri(playlist)
+        playlist_name = get_playlist_name(playlist)
         sp.start_playback(device_id=device.get('id'), context_uri=playlist_uri)
         print(f"Now Playing: {playlist_name}")
     except:
-        print(f"Playlist with keyword '{keyword}' not found in your library\nsearching Spotify for songs")
+        print(f"Playlist with keyword '{keyword}' not found in your library\nsearching Spotify for public Playlists")
         try:
-            song = search_song(keyword)
-            if not song:
+            playlist = search_playlist(keyword)
+            if not playlist:
                 raise Exception
             else:
-                print(f"Now playing: {song['name']} - {song['artists'][0]['name']}")
-                sp.start_playback(device_id=device.get('id'),uris=[song['uri']])
+                print(f"Now playing: {playlist['name']} By: {get_user_name(get_playlist_owner(playlist))}")
+                sp.start_playback(device_id=device.get('id'), context_uri=playlist['uri'])
         except:
             print(f"Could not find anything for {keyword}")
 
@@ -126,18 +126,40 @@ def volume_set(amount: int):
 
 def restart():
     global device
-    device =sp.current_playback().get('device')
-    sp.seek_track(position_ms=0,device_id=device.get('id'))
+    device = sp.current_playback().get('device')
+    sp.seek_track(position_ms=0, device_id=device.get('id'))
 
 
 def now_playing():
     try:
-        useful_info =["artists","name"]
+        useful_info = ["artists", "name"]
         track = sp.currently_playing().get('item')
         return {key: track[key] for key in useful_info}
     except AttributeError:
         return "No song currently playing"
 
-def search_song(keyword:str):
+
+def search_song(keyword: str):
     song = sp.search(q=keyword, limit=1)['tracks']['items'][0]
     return song
+
+
+def search_playlist(keyword: str):
+    playlist = sp.search(keyword, type="playlist", limit=1)['playlists']['items'][0]
+    return playlist
+
+
+def get_user_name(user):
+    return user.get("display_name")
+
+
+def get_playlist_owner(playlist):
+    return playlist.get("owner")
+
+
+def get_playlist_uri(playlist):
+    return playlist.get("uri")
+
+
+def get_playlist_name(playlist):
+    return playlist.get("name")

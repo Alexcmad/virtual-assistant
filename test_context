@@ -83,6 +83,11 @@ Example: "What is the capital of france? -> ask question what is the capital of 
 Example: "How far away is the moon? -> ask question how far away is the moon"
 Example: "Tell me about to kill a mockingbird -> ank question tell me about to kill a mockingbird"
 
+Translate: To translate a given sentence
+Example: "what is i love you in japanese? -> translate i love you LANG=japansese"
+Example "translate uno, dos, tres to spanish -> translate uno, dos, tres LANG=Spanish"
+Example "what does je suis Alex mean?-> translate je suis Alex LANG=english"
+
 Your response must always include ONLY the completion or the response without ANY punctuation or extra words.
 Do not include any arrow-formatted response.
 You are only to return what would go on the right side of the arrow.

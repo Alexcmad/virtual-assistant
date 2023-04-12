@@ -14,7 +14,7 @@ def execute_command(command: str):
 
     elif command.startswith('open'):
         name = command.split('open')[1].strip()
-        basic.open(name)
+        basic.Aopen(name)
 
     elif command.startswith('close'):
         name = command.split('close')[1].strip()
@@ -118,6 +118,13 @@ def execute_command(command: str):
         ans = GPT_Engine.answer_question(question)
         print(ans)
 
+    elif command.startswith("translate"):
+        query = command.replace("translate", "").split("lang=")
+        # print(query)
+        string = query[0]
+        lang = query[1]
+        ans = basic.translate(string,lang)
+        print(ans)
 
     else:
         return True

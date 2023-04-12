@@ -3,7 +3,6 @@ import speech_recognition.exceptions
 import speech_recognition as sr
 from assistant import GPT_Engine, commands
 
-
 r = sr.Recognizer()
 mic = sr.Microphone(device_index=2)
 
@@ -43,12 +42,14 @@ def use_davinci():
         try:
             command = input("Command -> ")
             gpt_parsed_command: str = GPT_Engine.interpret_command_davinci(f"{command} ->").lower()
+            print(f"Davinci: {gpt_parsed_command}")
             if commands.execute_command(gpt_parsed_command):
                 print(gpt_parsed_command)
                 print("[The model tried to execute the above command and it didn't work]")
         except Exception as e:
             print("Assistant ran into an Error")
             print(e)
+
 
 def choose_model():
     model = input("Choose model to use:\n"
@@ -59,6 +60,7 @@ def choose_model():
         use_turbo()
     else:
         use_davinci()
+
 def listen():
     while True:
         with mic as source:
