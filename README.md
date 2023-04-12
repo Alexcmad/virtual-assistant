@@ -15,7 +15,7 @@
 - Small talk
 - Calendar Management
 - Todo list✅
-- Translation?
+- Translation✅
 - spotify controls✅
 - typing, scrolling, pressing enter✅
 - pushing to git
