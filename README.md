@@ -54,3 +54,9 @@ User has the choice to use either the fine-tuned model or GPT3.5-Turbo.
 - probably faster but needs a lot of training data to be as accurate as Turbo.
 
 In all I prefer using turbo for the more natural interaction with message history, but in the later stages of this project I may train a really good davinci (or other) model and use it instead for the sake of my wallet. Don't know how training a turbo model would even work but it would be interesting to use if they make that possible.
+
+##### Date 4/12/2023
+
+![image](https://user-images.githubusercontent.com/113714949/231656242-5e85f1d4-e0bd-4b80-b6d7-87c157ebc2ac.png)
+
+![image](https://user-images.githubusercontent.com/113714949/231656323-ac30e9b4-780c-41e3-9b46-75982cf91c18.png)
