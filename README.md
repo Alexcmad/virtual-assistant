@@ -5,7 +5,7 @@
 - Opening and closing applications.✅
 - Setting reminders
 - Fetching reminders
-- Sending emails
+- Sending emails✅
 - Fetching Emails
 - Writing in txt files
 - General Searching✅
