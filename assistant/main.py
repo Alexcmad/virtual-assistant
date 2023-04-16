@@ -40,7 +40,8 @@ def use_turbo():
 def use_davinci():
     while True:
         try:
-            command = input("Command -> ")
+            # command = input("Command -> ")
+            command = listen()
             gpt_parsed_command: str = GPT_Engine.interpret_command_davinci(f"{command} ->").lower()
             print(f"Davinci: {gpt_parsed_command}")
             if commands.execute_command(gpt_parsed_command):

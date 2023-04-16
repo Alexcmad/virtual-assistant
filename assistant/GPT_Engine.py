@@ -45,7 +45,7 @@ def interpret_command_davinci(command):
 
 
 def answer_question(question):
-    msg = {"role": "user", "content": f"{question} in 50 words or less"}
+    msg = {"role": "user", "content": f"{question} in 30 words or less"}
     completion = openai.ChatCompletion.create(model="gpt-3.5-turbo",
                                               messages=[msg],
                                               max_tokens=50)

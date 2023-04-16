@@ -130,3 +130,5 @@ dmypy.json
 
 #others
 /tasks.json
+/contacts.csv
+/contacts_raw.csv
