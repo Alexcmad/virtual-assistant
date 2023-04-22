@@ -68,8 +68,6 @@ At first, the assistant would write then send the email immediately:
 https://user-images.githubusercontent.com/113714949/233766070-43bbbfb6-98ec-4ca9-a2ba-a4d279034053.mp4
 
 
-![image](https://user-images.githubusercontent.com/113714949/233766079-dac3518b-b466-4416-a45a-cf21e2d47115.png)
-
 ![image](https://user-images.githubusercontent.com/113714949/233766085-74034c79-dac0-405a-8c3e-9054b703df65.png)
 
 ![image](https://user-images.githubusercontent.com/113714949/233766094-35adfa71-ed1e-4c37-bbcd-872981b9cc23.png)
