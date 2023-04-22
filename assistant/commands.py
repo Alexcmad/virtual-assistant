@@ -137,12 +137,13 @@ def execute_command(command: str):
         receiverEmail = contactManager.get_contact_email(receiverName)
         subject = second_split[0].strip()
         if receiverEmail:
-            print(f"Email sent.\nSubject: {subject}\nRecipient: {receiverEmail}\nBody: {body}")
+            print(f"Email written Successfully\nSubject: {subject}\nRecipient: {receiverEmail}\nBody: {body}")
             contactManager.current_email = {"receiver": receiverEmail, "subject": subject, "body": body}
 
     elif lower_command.startswith("send email"):
         if contactManager.current_email:
             contactManager.send_email(**contactManager.current_email)
+            print(f"Email {contactManager.current_email.get('subject')} Sent Successfully")
             contactManager.current_email.clear()
         else:
             print("No email ready to be sent")
