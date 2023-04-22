@@ -60,3 +60,25 @@ In all I prefer using turbo for the more natural interaction with message histor
 ![image](https://user-images.githubusercontent.com/113714949/231656242-5e85f1d4-e0bd-4b80-b6d7-87c157ebc2ac.png)
 
 ![image](https://user-images.githubusercontent.com/113714949/231656323-ac30e9b4-780c-41e3-9b46-75982cf91c18.png)
+
+##### Date 4/21/2023
+At first, the assistant would write then send the email immediately:
+
+
+https://user-images.githubusercontent.com/113714949/233766070-43bbbfb6-98ec-4ca9-a2ba-a4d279034053.mp4
+
+
+![image](https://user-images.githubusercontent.com/113714949/233766085-74034c79-dac0-405a-8c3e-9054b703df65.png)
+
+![image](https://user-images.githubusercontent.com/113714949/233766094-35adfa71-ed1e-4c37-bbcd-872981b9cc23.png)
+
+However, I realized this wasn't really practical because you need to review emails before you send them, so I split the command into "write email" and "send email":
+
+![image](https://user-images.githubusercontent.com/113714949/233766152-ca3316f8-0a04-4f34-a293-2fedefe2f46a.png)
+
+![image](https://user-images.githubusercontent.com/113714949/233766138-696f7409-d07c-46c4-8217-4990f1a81b8c.png)
+
+![image](https://user-images.githubusercontent.com/113714949/233766168-e18dbfe3-e323-4c95-be00-3d79420a5516.png)
+
+![image](https://user-images.githubusercontent.com/113714949/233766187-c0cbf35b-93bf-4983-9ba7-0a388402e1f9.png)
+
