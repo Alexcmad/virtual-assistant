@@ -43,7 +43,6 @@ def interpret_command_davinci(command):
     return comp
 
 
-
 def answer_question(question):
     msg = {"role": "user", "content": f"{question} in 30 words or less"}
     completion = openai.ChatCompletion.create(model="gpt-3.5-turbo",
@@ -51,6 +50,5 @@ def answer_question(question):
                                               max_tokens=50)
     answer = completion['choices'][0]['message']['content']
     return answer
-
 
 # pprint(interpret_command_davinci("Who was in paris? ->"))

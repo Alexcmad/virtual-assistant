@@ -1,59 +1,60 @@
-from assistant import spotifyControls, basic, taskManager, GPT_Engine
+from assistant import spotifyControls, basic, taskManager, GPT_Engine, contactManager
 from pprint import pprint
 import pyautogui as pg
 import gtts
-from  playsound import playsound
+from playsound import playsound
 
 
 def execute_command(command: str):
     command.removesuffix('.')
+    lower_command = command.lower()
 
-    if command.startswith('play'):
+    if lower_command.startswith('play'):
         name = command.split('play')[1].strip()
         spotifyControls.play(name)
 
-    elif command.startswith('open'):
+    elif lower_command.startswith('open'):
         name = command.split('open')[1].strip()
         basic.Aopen(name)
 
-    elif command.startswith('close'):
+    elif lower_command.startswith('close'):
         name = command.split('close')[1].strip()
         basic.close(name)
 
-    elif 'pause' == command:
+    elif 'pause' == lower_command:
         spotifyControls.pause()
 
-    elif 'next' == command:
+    elif 'next' == lower_command:
         spotifyControls.next_track()
 
-    elif 'previous' == command:
+    elif 'previous' == lower_command:
         spotifyControls.previous_track()
 
-    elif 'resume' == command:
+    elif 'resume' == lower_command:
         spotifyControls.resume()
 
-    elif command.startswith('add task'):
+    elif lower_command.startswith('add task'):
         task = command.split('add task')[1].strip()
         print(f"Added task: {task}")
         taskManager.add_task(task)
 
-    elif command == 'view tasks':
+    elif lower_command == 'view tasks':
         taskManager.view_tasks()
 
-    elif command.startswith('complete task'):
+    elif lower_command.startswith('complete task'):
         keyword = command.split('complete task')[1].strip()
         taskManager.complete_task(keyword)
 
-    elif command.startswith('view task'):
+    elif lower_command.startswith('view task'):
         keyword = command.split('view task')[1].strip()
         pprint(taskManager.get_tasks_by_keyword(keyword))
 
-    elif 'shuffle' == command:
+    elif 'shuffle' == lower_command:
         spotifyControls.shuffle()
 
-    elif command.startswith("volume up"):
+    elif lower_command.startswith("volume up"):
         try:
-            amount = command.split("volume up")[1]
+            amount = lower_command.split("volume up")[1]
             if amount:
                 spotifyControls.volume_up(int(amount))
             else:
@@ -61,9 +62,9 @@ def execute_command(command: str):
         except:
             print("Error Turning Volume Up")
 
-    elif command.startswith("volume down"):
+    elif lower_command.startswith("volume down"):
         try:
-            amount = command.split("volume down")[1]
+            amount = lower_command.split("volume down")[1]
             if amount:
                 spotifyControls.volume_down(int(amount))
             else:
@@ -71,60 +72,80 @@ def execute_command(command: str):
         except:
             print("Error Turning Volume Down")
 
-    elif command.startswith("volume set"):
+    elif lower_command.startswith("volume set"):
         try:
             amount = int(command.split("volume set")[1].strip())
             spotifyControls.volume_set(amount)
         except:
             print("Error Setting Volume")
 
-    elif command == "restart":
+    elif lower_command == "restart":
         try:
             spotifyControls.restart()
         except:
             print("Error pulling up this chune")
 
-    elif command.startswith("count completed task"):
+    elif lower_command.startswith("count completed task"):
         print(f"{taskManager.count_complete_tasks()} Tasks Completed")
 
-    elif command.startswith("count incomplete task"):
+    elif lower_command.startswith("count incomplete task"):
         print(f"{taskManager.count_incomplete_tasks()} Tasks Incomplete")
 
-    elif command.startswith("count total task"):
+    elif lower_command.startswith("count total task"):
         print(f"{taskManager.count_total_tasks()} Tasks in Total")
 
-    elif command == "clear tasks":
+    elif lower_command == "clear tasks":
         taskManager.clear()
 
-    elif command.startswith("type"):
+    elif lower_command.startswith("type"):
         content = command.strip("type")
         pg.write(content)
 
-    elif command == 'enter':
+    elif lower_command == 'enter':
         pg.press('enter')
 
-    elif command == 'scroll up':
+    elif lower_command == 'scroll up':
         pg.scroll(clicks=1000)
-    elif command == 'scroll down':
+    elif lower_command == 'scroll down':
         pg.scroll(clicks=-1000)
 
-    elif command == 'now playing':
+    elif lower_command == 'now playing':
         song = spotifyControls.now_playing()
         ans = (GPT_Engine.answer_question(f"{song} what song is this?"))
         print(ans)
 
-    elif command.startswith("ask question"):
+    elif lower_command.startswith("ask question"):
         question = command.split("ask question")[1].strip()
         ans = GPT_Engine.answer_question(question)
         print(ans)
 
-    elif command.startswith("translate"):
+    elif lower_command.startswith("translate"):
         query = command.replace("translate", "").split("lang=")
         # print(query)
         string = query[0]
         lang = query[1]
-        ans = basic.translate(string,lang)
+        ans = basic.translate(string, lang)
         print(ans)
+
+    elif lower_command.startswith("write email"):
+        # print(command)
+        first_split = command.replace("write email", "").split("SUBJECT=")
+        body = first_split[0].strip()
+        second_split = first_split[1].split("TO=")
+        receiverName = second_split[1].strip()
+        # print(receiverName)
+        receiverEmail = contactManager.get_contact_email(receiverName)
+        subject = second_split[0].strip()
+        if receiverEmail:
+            print(f"Email sent.\nSubject: {subject}\nRecipient: {receiverEmail}\nBody: {body}")
+            contactManager.current_email = {"receiver": receiverEmail, "subject": subject, "body": body}
+
+    elif lower_command.startswith("send email"):
+        if contactManager.current_email:
+            contactManager.send_email(**contactManager.current_email)
+            contactManager.current_email.clear()
+        else:
+            print("No email ready to be sent")
 
     else:
         return True

@@ -17,14 +17,14 @@ def use_turbo():
             print("[Command History has been Reset]")
             count = 0
         try:
-            command = input(f"{count + 1}/{msg_limit}: Command -> ").lower()
+            command = input(f"{count + 1}/{msg_limit}: Command -> ")
 
             if command in ["reset", "thank you", "thanks"]:
                 count = msg_limit
 
             elif commands.execute_command(command):
 
-                gpt_parsing: str = GPT_Engine.interpret_command_gpt_TURBO(f"{command} ->").lower()
+                gpt_parsing: str = GPT_Engine.interpret_command_gpt_TURBO(f"{command} ->")
                 gpt_parsed_command = gpt_parsing.split('->')[0].strip().strip(".")
                 command = gpt_parsed_command
                 if commands.execute_command(command):
@@ -76,7 +76,7 @@ def listen():
                     continue
 
             except Exception as e:
-                print(e)
+                print(e.with_traceback())
 
 
 choose_model()
