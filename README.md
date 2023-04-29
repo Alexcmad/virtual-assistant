@@ -6,7 +6,7 @@
 - Setting reminders
 - Fetching reminders
 - Sending emails✅
-- Fetching Emails
+- Fetching Emails ✅
 - Writing in txt files
 - General Searching✅
 - Voice controls✅🛑
@@ -21,7 +21,7 @@
 - pushing to git
 
 # DEMOS:
-### Date: 4/10/2023
+### Date: 10/4/2023
 
 https://user-images.githubusercontent.com/113714949/230833554-a53bc422-0766-4ee0-8ec6-7de90436645d.mp4
 
@@ -34,7 +34,7 @@ https://user-images.githubusercontent.com/113714949/230833558-feedf5fa-9baa-4608
 
 ![image](https://user-images.githubusercontent.com/113714949/230943377-07a423f7-09a9-4f0c-bd5a-8569a8ede041.png)
 
-### Date: 4/11/2023
+### Date: 11/4/2023
 
 ![image](https://user-images.githubusercontent.com/113714949/231106839-77290444-a263-4966-ab96-14199509ed47.png)
 User has the choice to use either the fine-tuned model or GPT3.5-Turbo.
@@ -55,13 +55,13 @@ User has the choice to use either the fine-tuned model or GPT3.5-Turbo.
 
 In all I prefer using turbo for the more natural interaction with message history, but in the later stages of this project I may train a really good davinci (or other) model and use it instead for the sake of my wallet. Don't know how training a turbo model would even work but it would be interesting to use if they make that possible.
 
-##### Date 4/12/2023
+##### Date 12/4/2023 🎂
 
 ![image](https://user-images.githubusercontent.com/113714949/231656242-5e85f1d4-e0bd-4b80-b6d7-87c157ebc2ac.png)
 
 ![image](https://user-images.githubusercontent.com/113714949/231656323-ac30e9b4-780c-41e3-9b46-75982cf91c18.png)
 
-##### Date 4/21/2023
+##### Date 21/4/2023
 At first, the assistant would write then send the email immediately:
 
 
@@ -82,3 +82,9 @@ However, I realized this wasn't really practical because you need to review emai
 
 ![image](https://user-images.githubusercontent.com/113714949/233766187-c0cbf35b-93bf-4983-9ba7-0a388402e1f9.png)
 
+##### Date 29/4/2023
+
+https://user-images.githubusercontent.com/113714949/235293862-a596db04-2793-4d1e-8a13-a36af4ecec68.mp4
+
+SO it can read my emails from Gmail now. It's able to search through a range of emails (i set this to 50) within a range of days (set it to 3)
+If the content of the email is in an unreadable format (not plain text) then it doesn't attempt to read it because I can't read it. IF the openAI API were free (or like way cheaper) I would just throw all the output to it and let it parse it and talk to me as well as save all the information about the emails in the history. Currently everything is stored in a TinyDB, so chatGPT doesnt even know what they are. I want to change this, even though i know it's going to cost alot :(
