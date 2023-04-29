@@ -1,4 +1,4 @@
-from assistant import spotifyControls, basic, taskManager, GPT_Engine, contactManager
+from assistant import spotifyControls, basic, taskManager, GPT_Engine, contactManager, emailReader
 from pprint import pprint
 import pyautogui as pg
 import gtts
@@ -147,6 +147,21 @@ def execute_command(command: str):
             contactManager.current_email.clear()
         else:
             print("No email ready to be sent")
+
+    elif lower_command.startswith("search subject"):
+        keyword = command.replace("search subject", '').strip()
+        emailReader.search_subjects(keyword)
+
+    elif lower_command.startswith("search sender"):
+        keyword = command.replace("search sender", '').strip()
+        emailReader.search_sender(keyword)
+
+    elif lower_command.startswith("read email"):
+        q = command.replace("read email","").strip()
+        if q.isnumeric():
+            emailReader.read_idx(int(q))
+        else:
+            emailReader.read_keyword(q)
 
     else:
         return True

@@ -62,6 +62,7 @@ def choose_model():
     else:
         use_davinci()
 
+
 def listen():
     while True:
         with mic as source:

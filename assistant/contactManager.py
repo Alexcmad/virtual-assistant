@@ -27,6 +27,7 @@ def send_email(receiver: str, subject: str, body: str):
     with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as smtp:
         smtp.login(my_email, password)
         smtp.sendmail(my_email, receiver, em.as_string())
+    print(f"Email {subject} Sent")
 
 
 def get_contact(contact_name: str):
@@ -81,9 +82,6 @@ def add_contact(first_name: str, last_name: str = "", email_1: str = "", email_2
     with open("../contacts.csv", "a", newline="") as file:
         csvwriter = csv.writer(file)
         csvwriter.writerow(new_contact)
-
-
-add_contact(first_name="George", last_name="Jungle")
 
 
 def delete_contact(first_name: str, last_name: str = ""):
