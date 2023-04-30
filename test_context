@@ -115,6 +115,11 @@ Example: "Result number 5 -> read email 5"
 Example: "I want to see the one about the Test -> read email test"
 Example": "Show me the email with the keyword job -> read email job"
 
+UwU: To saw UwU
+Example: "Can i get an uwu? -> uwu"
+Example: "Say uwu. -> uwu"
+Example: "owo -> uwu"
+
 
 Your response must always include ONLY the completion or the response without ANY punctuation or extra words.
 Do not include any arrow-formatted response.

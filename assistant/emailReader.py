@@ -96,7 +96,8 @@ def search_subjects(subject_keyword):
     results = db.search(Emails.subject.search(subject_keyword, flags=re.IGNORECASE))
     current_search = results
     current_subjects = [d.get("subject") for d in results]
-    pprint(current_subjects)
+    current_subjects.reverse()
+    return current_subjects
 
 
 def search_sender(sender_keyword):
@@ -104,28 +105,31 @@ def search_sender(sender_keyword):
     results = db.search(Emails.From.search(sender_keyword, flags=re.IGNORECASE))
     current_search = results
     current_subjects = [d.get("subject") for d in results]
-    pprint(current_subjects)
+    current_subjects.reverse()
+    return current_subjects
 
 
 def print_email(emaildict: dict):
+    eml = ""
     if emaildict.get('readable'):
-        print("Date: " + emaildict.get('date'))
-        print("From: " + emaildict.get('From'))
-        print("Subject: " + emaildict.get('subject'))
-        print("Body:\n" + emaildict.get('body'))
+        eml+=("Date: " + emaildict.get('date'))
+        eml+=("\nFrom: " + emaildict.get('From'))
+        eml+=("\nSubject: " + emaildict.get('subject'))
+        eml+=("\nBody:\n" + emaildict.get('body'))
+        return eml
     else:
         print("Email not readable")
+        return False
 
 
 def read_idx(index):
-    print_email(current_search[index - 1])
+    return print_email(current_search[index - 1])
 
 
 def read_keyword(keyword):
     for idx, subject in enumerate(current_subjects):
         if basic.match_substring(keyword, subject):
-            read_idx(idx)
-            return
+            return read_idx(idx)
 
 
 def fetch_loop():

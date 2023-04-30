@@ -1,7 +1,10 @@
+import time
+
 import spotipy
 import os
 from dotenv import load_dotenv
 from assistant.basic import match_substring
+import threading
 from pprint import pprint
 
 load_dotenv()
@@ -15,8 +18,9 @@ scope = 'user-library-read user-modify-playback-state user-read-playback-state u
 
 oauth = spotipy.SpotifyOAuth(client_id=clientID, client_secret=clientSecret, redirect_uri=redirectURI, scope=scope)
 token_dict = oauth.get_access_token()
-
-sp = spotipy.Spotify(auth=token_dict['access_token'])
+token = token_dict['access_token']
+refresh_token = token_dict['refresh_token']
+sp = spotipy.Spotify(auth= token)
 
 device = sp.devices()['devices'][0]
 
@@ -163,3 +167,17 @@ def get_playlist_uri(playlist):
 
 def get_playlist_name(playlist):
     return playlist.get("name")
+
+
+def refresh_access_token():
+    time.sleep(600)
+    global token_dict, refresh_token,token,sp
+    token_dict = oauth.refresh_access_token(refresh_token)
+    token_dict = oauth.get_access_token()
+    token = token_dict['access_token']
+    refresh_token = token_dict['refresh_token']
+    sp = spotipy.Spotify(auth=token)
+
+
+t1 = threading.Thread(target=refresh_access_token)
+t1.start()

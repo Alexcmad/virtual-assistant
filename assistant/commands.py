@@ -111,7 +111,7 @@ def execute_command(command: str):
 
     elif lower_command == 'now playing':
         song = spotifyControls.now_playing()
-        ans = (GPT_Engine.answer_question(f"{song} what song is this?"))
+        ans = (GPT_Engine.answer_question(f"{song} Tell me about this song data"))
         print(ans)
 
     elif lower_command.startswith("ask question"):
@@ -150,18 +150,29 @@ def execute_command(command: str):
 
     elif lower_command.startswith("search subject"):
         keyword = command.replace("search subject", '').strip()
-        emailReader.search_subjects(keyword)
+        pprint(emailReader.search_subjects(keyword))
 
     elif lower_command.startswith("search sender"):
         keyword = command.replace("search sender", '').strip()
-        emailReader.search_sender(keyword)
+        pprint(emailReader.search_sender(keyword))
 
     elif lower_command.startswith("read email"):
         q = command.replace("read email","").strip()
         if q.isnumeric():
-            emailReader.read_idx(int(q))
+            email = emailReader.read_idx(int(q))
+            if email:
+                #summary = GPT_Engine.answer_question(
+                    #f"Summarize all important information including date in this email addressed to me: {email}")
+                print(email)
         else:
-            emailReader.read_keyword(q)
+            email = emailReader.read_keyword(q)
+            if email:
+                #summary = GPT_Engine.answer_question(
+                    #f"Read this email addressed to me and summarize all important information: {email}")
+                print(email)
+
+    elif lower_command.startswith("uwu"):
+        print("UwU")
 
     else:
         return True

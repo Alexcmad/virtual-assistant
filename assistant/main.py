@@ -4,20 +4,27 @@ import speech_recognition as sr
 from assistant import GPT_Engine, commands
 
 r = sr.Recognizer()
-mic = sr.Microphone(device_index=2)
+mic = sr.Microphone()
 
 msg_limit = 5
 
+listening = False
 
-def use_turbo():
+def use_turbo(interface):
+    global listening
     count = 0
     while True:
         if count > msg_limit - 1:
             GPT_Engine.message_history = GPT_Engine.refresh_history()
             print("[Command History has been Reset]")
             count = 0
+            listening = False
         try:
-            command = input(f"{count + 1}/{msg_limit}: Command -> ")
+            if interface == "1":
+                print(f"{count + 1}/{msg_limit}: ", end="")
+                command = listen()
+            else:
+                command = input(f"{count + 1}/{msg_limit}: Command -> ")
 
             if command in ["reset", "thank you", "thanks"]:
                 count = msg_limit
@@ -58,26 +65,41 @@ def choose_model():
                   "[1] - GPT-3.5-Turbo (Expensive but more creative)\n"
                   "> ")
     if model == "1":
-        use_turbo()
+        interface = input("Choose how to interact with the model:\n"
+                          "[0] - CLI (Typing)\n"
+                          "[1] - Voice\n"
+                          "> ")
+        use_turbo(interface)
     else:
         use_davinci()
 
 
 def listen():
+    global listening
     while True:
+        if listening:
+            print("Listening -> ", end="")
+        else:
+            print("Not listening")
         with mic as source:
             try:
                 r.adjust_for_ambient_noise(source)
                 audio = r.listen(source)
-                command = r.recognize_google(audio)
-                if command:
+                command: str = r.recognize_google(audio)
+                if command.lower().startswith("assistant") and not listening:
+                    listening = True
+                    if len(command) > 9:
+                        print(command[len("assistant"):])
+                        return command[len("assistant"):]
+                    else:
+                        print("Assistant Activated")
+                elif listening:
                     print(command)
                     return command
                 else:
-                    continue
-
+                    print("")
             except Exception as e:
-                print(e.with_traceback())
+                print(e)
 
 
 choose_model()
